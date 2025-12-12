@@ -1,4 +1,6 @@
 #include "Grid.h"
+#include <algorithm>
+#include <iostream>
 
 Grid::Grid(int width, int height) : _width(width), _height(height)
 {

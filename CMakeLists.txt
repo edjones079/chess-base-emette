@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.5.0)
-project(tictactoe VERSION 0.1.0 LANGUAGES C CXX)
+project(chess VERSION 0.1.0 LANGUAGES C CXX)
 
 # check for macOS
 if (${CMAKE_SYSTEM_NAME} MATCHES "Darwin")
@@ -21,6 +21,11 @@ endif()
 set(CMAKE_CXX_STANDARD 20)
 
 if(MACOS)
+    find_package(OpenGL REQUIRED)
+    include_directories(${OPENGL_INCLUDE_DIR})
+    find_package(glfw3 REQUIRED)
+    include_directories(${GLFW_INCLUDE_DIRS})
+elseif(LINUX)
     find_package(OpenGL REQUIRED)
     include_directories(${OPENGL_INCLUDE_DIR})
     find_package(glfw3 REQUIRED)

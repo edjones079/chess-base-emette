@@ -40,7 +40,7 @@ bool Sprite::highlighted()
 	return _highlighted;
 }
 
-#ifdef __APPLE__
+#if !defined(_WIN32)
 #include "../imgui/imgui_impl_opengl3_loader.h"
 
 ImTextureID Sprite::_loadTextureFromMemory(const unsigned char *image_data, int image_width, int image_height)
@@ -60,7 +60,8 @@ ImTextureID Sprite::_loadTextureFromMemory(const unsigned char *image_data, int 
     return static_cast<ImTextureID>(image_texture);
 }
 
-#else
+#endif
+#ifdef _WIN32
 
 // DirectX
 #include <stdio.h>
