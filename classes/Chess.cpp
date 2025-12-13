@@ -16,11 +16,15 @@ char Chess::pieceNotation(int x, int y) const
 {
     const char *wpieces = { "0PNBRQK" };
     const char *bpieces = { "0pnbrqk" };
-    Bit *bit = _grid->getSquare(x, y)->bit();
+    ChessSquare* square = _grid->getSquare(x, y);
+    Bit *bit = square->bit();
     char notation = '0';
-    if (bit) {
+    if (bit != nullptr) {
         notation = bit->gameTag() < 128 ? wpieces[bit->gameTag()] : bpieces[bit->gameTag()-128];
     }
+
+    //std::cout << "Square: " << notation << std::endl;
+
     return notation;
 }
 
@@ -35,6 +39,7 @@ Bit* Chess::PieceForPlayer(const int playerNumber, ChessPiece piece)
     bit->LoadTextureFromFile(spritePath.c_str());
     bit->setOwner(getPlayerAt(playerNumber));
     bit->setSize(pieceSize, pieceSize);
+    bit->setGameTag(piece);
 
     return bit;
 }
@@ -61,7 +66,7 @@ void Chess::FENtoBoard(const std::string& fen) {
 
     char rowDelimiter = '/';
 
-    int rank = 0; // Chess Rank (row)
+    int rank = _grid->getHeight() - 1; // Chess Rank (row)
 
     while (getline(s, row, rowDelimiter))
     {
@@ -100,26 +105,26 @@ void Chess::FENtoBoard(const std::string& fen) {
             // passing the playerNumber, and realized I was passing -1, per
             // AIPlayer. I simply hard-coded 1 and 0 for the below function. 
 
-            int pieceOwner = std::isupper(c) ? 1 : 0; // Detects if piece is white / black
+            int pieceOwner = std::isupper(c) ? 0 : 1; // Detects if piece is white / black
 
             Bit *bit = PieceForPlayer(pieceOwner, piece);
 
-            if (bit)
+            if (bit != nullptr)
             {
                 bit->setPosition(square->getPosition());
                 square->setBit(bit);
             }
 
+            std::cout << "Player: " << bit->getOwner()->playerNumber() << std::endl;
+
+            std::cout << "Square: " << pieceNotation(file, rank) << " - " << file << ", " << rank << std::endl;
+
             file++;
         }
 
-        rank++;
+        rank--;
     }
 
-    // 1: piece placement (from white's perspective)
-
-    // NOT PART OF THIS ASSIGNMENT BUT OTHER THINGS THAT CAN BE IN A FEN STRING
-    // ARE BELOW
     // 2: active color (W or B)
     // 3: castling availability (KQkq or -)
     // 4: en passant target square (in algebraic notation, or -)
@@ -188,12 +193,14 @@ std::string Chess::stateString()
             s += pieceNotation( x, y );
         }
     );
+
     return s;}
 
 void Chess::setStateString(const std::string &s)
 {
     _grid->forEachSquare([&](ChessSquare* square, int x, int y) {
-        int index = y * 8 + x;
+        int newy = 7 - y;
+        int index = newy * 8 + x;
         char playerNumber = s[index] - '0';
         if (playerNumber) {
             square->setBit(PieceForPlayer(playerNumber - 1, Pawn));

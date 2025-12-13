@@ -98,6 +98,8 @@ void Game::endTurn()
 	turn->_score = _gameOptions.score;
 	turn->_gameNumber = _gameOptions.gameNumber;
 	_turns.push_back(turn);
+
+	std::cout << getCurrentPlayer()->playerNumber() << std::endl;
 	ClassGame::EndOfTurn();
 }
 

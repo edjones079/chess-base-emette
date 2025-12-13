@@ -79,13 +79,15 @@ namespace ClassGame {
                 }
                 ImGui::End();
 
-                ImGui::Begin("GameWindow");
-                if (game) {
-                    if (game->gameHasAI() && (game->getCurrentPlayer()->isAIPlayer() || game->_gameOptions.AIvsAI))
-                    {
-                        game->updateAI();
+                if(ImGui::Begin("GameWindow", NULL, ImGuiWindowFlags_NoTitleBar | ImGuiWindowFlags_NoMove))
+                {
+                    if (game) {
+                        if (game->gameHasAI() && (game->getCurrentPlayer()->isAIPlayer() || game->_gameOptions.AIvsAI))
+                        {
+                            game->updateAI();
+                        }
+                        game->drawFrame();
                     }
-                    game->drawFrame();
                 }
                 ImGui::End();
         }
