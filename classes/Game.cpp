@@ -99,7 +99,7 @@ void Game::endTurn()
 	turn->_gameNumber = _gameOptions.gameNumber;
 	_turns.push_back(turn);
 
-	std::cout << getCurrentPlayer()->playerNumber() << std::endl;
+	//std::cout << getCurrentPlayer()->playerNumber() << std::endl;
 	ClassGame::EndOfTurn();
 }
 

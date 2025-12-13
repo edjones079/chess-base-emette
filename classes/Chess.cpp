@@ -117,7 +117,7 @@ void Chess::FENtoBoard(const std::string& fen) {
 
             std::cout << "Player: " << bit->getOwner()->playerNumber() << std::endl;
 
-            std::cout << "Square: " << pieceNotation(file, rank) << " - " << file << ", " << rank << std::endl;
+            std::cout << "Square: " << pieceNotation(file, rank) << " - (" << file << ", " << rank << ")" << std::endl;
 
             file++;
         }
@@ -140,8 +140,11 @@ bool Chess::canBitMoveFrom(Bit &bit, BitHolder &src)
 {
     // need to implement friendly/unfriendly in bit so for now this hack
     int currentPlayer = getCurrentPlayer()->playerNumber() * 128;
-    int pieceColor = bit.gameTag() & 128;
-    if (pieceColor == currentPlayer) return true;
+    int pieceOwner = bit.getOwner()->playerNumber() * 128;
+
+    //std::cout << "Piece Owner: " << (pieceOwner == currentPlayer) << std::endl;
+
+    if (pieceOwner == currentPlayer) return true;
     return false;
 }
 
@@ -189,8 +192,10 @@ std::string Chess::stateString()
 {
     std::string s;
     s.reserve(64);
-    _grid->forEachSquare([&](ChessSquare* square, int x, int y) {
-            s += pieceNotation( x, y );
+    _grid->forEachSquare([&](ChessSquare* square, int x, int y) 
+        {
+            int newy = 7 - y;
+            s += pieceNotation( x, newy );
         }
     );
 
@@ -199,8 +204,7 @@ std::string Chess::stateString()
 void Chess::setStateString(const std::string &s)
 {
     _grid->forEachSquare([&](ChessSquare* square, int x, int y) {
-        int newy = 7 - y;
-        int index = newy * 8 + x;
+        int index = y * 8 + x;
         char playerNumber = s[index] - '0';
         if (playerNumber) {
             square->setBit(PieceForPlayer(playerNumber - 1, Pawn));
