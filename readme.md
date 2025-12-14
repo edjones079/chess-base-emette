@@ -1,13 +1,13 @@
-Fork or clone your this chess project into a new GitHub repository.
+Using your chess code that you added the FEN string setup to add chess movement for the following pieces:
 
-Add support for FEN stringsLinks to an external site. to your game setup so that instead of the current way you are setting up your game board you are setting it up with a call similar to the following call.
+    pawns
 
-FENtoBoard("rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR");
+Remember that Pawns capture differently than they move.
 
-Your routine should be able to take just the board position portion of a FEN string, or the entire FEN string like so:
+Once your code is running:
 
-FENtoBoard("rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1");
+ Take a screenshot of the chessboard with all the pieces in place and a second screenshot showing a breakpoint after your move generator has generated its first moves with 20 moves in the array. 
 
-(you can ignore the end for now)
-
-This will allow you to quickly check that your castling, promotion and en passant code is working.
+ Add these screenshots to your github directory so they show up on your github page. Submit the address of your github repository for review. 
+ 
+ Make sure you have updated the README.md to reflect the changes and work you have done for this project.

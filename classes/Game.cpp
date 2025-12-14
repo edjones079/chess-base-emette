@@ -365,9 +365,12 @@ void Game::mouseUp(ImVec2 &location, Entity *entity)
 			{
 				pieceTaken(_dropTarget->bit());
 			}
+
+			//std::cout << "DropTarget: " << _dropTarget << std::endl;
 			// Is the move legal?
-			if (_dropTarget && _dropTarget->dropBitAtPoint(_dragBit, _dragBit->getPosition()))
+			if (_dropTarget && _dropTarget->dropBitAtPoint(_dragBit, _dropTarget->getPosition()))
 			{
+				std::cout << "Legal!" << std::endl;
 				// Yes, notify the interested parties:
 				_dragBit->setPickedUp(false);
 				_dragBit->setPosition(_dropTarget->getPosition()); // don't animate

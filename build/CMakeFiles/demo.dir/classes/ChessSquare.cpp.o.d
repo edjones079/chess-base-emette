@@ -162,4 +162,60 @@ CMakeFiles/demo.dir/classes/ChessSquare.cpp.o: \
  /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/bits/uses_allocator.h \
  /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/bits/uses_allocator_args.h \
  /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/tuple \
- /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/bits/ranges_util.h
+ /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/bits/ranges_util.h \
+ /home/electrickazoo/Assignments/chess-base-emette/classes/Player.h \
+ /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/iostream \
+ /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/ostream \
+ /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/bits/ostream.h \
+ /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/ios \
+ /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/exception \
+ /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/bits/exception_ptr.h \
+ /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/bits/cxxabi_init_exception.h \
+ /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/typeinfo \
+ /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/bits/nested_exception.h \
+ /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/bits/ios_base.h \
+ /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/ext/atomicity.h \
+ /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/x86_64-unknown-linux-gnu/bits/gthr.h \
+ /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/x86_64-unknown-linux-gnu/bits/gthr-default.h \
+ /nix/store/m3n0h7646c7qwf6dbvdqhslmxmv2dg3z-glibc-2.40-66-dev/include/pthread.h \
+ /nix/store/m3n0h7646c7qwf6dbvdqhslmxmv2dg3z-glibc-2.40-66-dev/include/sched.h \
+ /nix/store/m3n0h7646c7qwf6dbvdqhslmxmv2dg3z-glibc-2.40-66-dev/include/bits/sched.h \
+ /nix/store/m3n0h7646c7qwf6dbvdqhslmxmv2dg3z-glibc-2.40-66-dev/include/bits/types/struct_sched_param.h \
+ /nix/store/m3n0h7646c7qwf6dbvdqhslmxmv2dg3z-glibc-2.40-66-dev/include/bits/cpu-set.h \
+ /nix/store/m3n0h7646c7qwf6dbvdqhslmxmv2dg3z-glibc-2.40-66-dev/include/time.h \
+ /nix/store/m3n0h7646c7qwf6dbvdqhslmxmv2dg3z-glibc-2.40-66-dev/include/bits/time.h \
+ /nix/store/m3n0h7646c7qwf6dbvdqhslmxmv2dg3z-glibc-2.40-66-dev/include/bits/timex.h \
+ /nix/store/m3n0h7646c7qwf6dbvdqhslmxmv2dg3z-glibc-2.40-66-dev/include/bits/types/struct_tm.h \
+ /nix/store/m3n0h7646c7qwf6dbvdqhslmxmv2dg3z-glibc-2.40-66-dev/include/bits/types/struct_itimerspec.h \
+ /nix/store/m3n0h7646c7qwf6dbvdqhslmxmv2dg3z-glibc-2.40-66-dev/include/bits/setjmp.h \
+ /nix/store/m3n0h7646c7qwf6dbvdqhslmxmv2dg3z-glibc-2.40-66-dev/include/bits/types/struct___jmp_buf_tag.h \
+ /nix/store/m3n0h7646c7qwf6dbvdqhslmxmv2dg3z-glibc-2.40-66-dev/include/bits/pthread_stack_min-dynamic.h \
+ /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/x86_64-unknown-linux-gnu/bits/atomic_word.h \
+ /nix/store/m3n0h7646c7qwf6dbvdqhslmxmv2dg3z-glibc-2.40-66-dev/include/sys/single_threaded.h \
+ /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/bits/locale_classes.h \
+ /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/bits/locale_classes.tcc \
+ /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/system_error \
+ /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/x86_64-unknown-linux-gnu/bits/error_constants.h \
+ /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/stdexcept \
+ /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/streambuf \
+ /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/bits/streambuf.tcc \
+ /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/bits/basic_ios.h \
+ /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/bits/locale_facets.h \
+ /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/cwctype \
+ /nix/store/m3n0h7646c7qwf6dbvdqhslmxmv2dg3z-glibc-2.40-66-dev/include/wctype.h \
+ /nix/store/m3n0h7646c7qwf6dbvdqhslmxmv2dg3z-glibc-2.40-66-dev/include/bits/wctype-wchar.h \
+ /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/x86_64-unknown-linux-gnu/bits/ctype_base.h \
+ /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/bits/streambuf_iterator.h \
+ /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/x86_64-unknown-linux-gnu/bits/ctype_inline.h \
+ /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/bits/locale_facets.tcc \
+ /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/bits/basic_ios.tcc \
+ /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/bits/ostream.tcc \
+ /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/istream \
+ /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/bits/istream.tcc \
+ /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/map \
+ /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/bits/stl_tree.h \
+ /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/ext/aligned_buffer.h \
+ /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/bits/node_handle.h \
+ /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/bits/stl_map.h \
+ /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/bits/stl_multimap.h \
+ /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/bits/erase_if.h

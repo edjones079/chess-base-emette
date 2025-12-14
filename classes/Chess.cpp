@@ -1,6 +1,7 @@
 #include "Chess.h"
 #include <limits>
 #include <cmath>
+#include <list>
 
 Chess::Chess()
 {
@@ -11,6 +12,282 @@ Chess::~Chess()
 {
     delete _grid;
 }
+
+int Chess::DirectionOffsets[8] = { 8, -8, 1, -1, 7, -7, 9, -9 };
+
+int Chess::NDirectionOffsets[8] = { 6, 15, 17, 10, -6, -15, -17, -10 };
+
+int Chess::NumSquaresToEdge[64][8] = {};
+
+std::list<BitMove> moves;
+
+void Chess::PrecomputeMoveData()
+{
+    std::cout << "Precomputing moves!" << std::endl;
+    std::cout << std::endl;
+
+    for (int file = 0; file < 8; file++)
+    {
+        for (int rank = 0; rank < 8; rank++)
+        {
+            int north = 7 - rank;
+            int south = rank;
+            int east = 7 - file;
+            int west = file;
+
+            int index = rank * 8 + file;
+
+            NumSquaresToEdge[index][0] = north; // Up
+            NumSquaresToEdge[index][1] = south; // Down
+            NumSquaresToEdge[index][2] = east; // Right
+            NumSquaresToEdge[index][3] = west; // Left
+            NumSquaresToEdge[index][4] = std::min(north, west); // Up-Left
+            NumSquaresToEdge[index][5] = std::min(south, east); // Down-Right
+            NumSquaresToEdge[index][6] = std::min(north, east); // Up-Right
+            NumSquaresToEdge[index][7] = std::min(south, west); // Down-Left
+        }
+    }
+}
+
+std::list<BitMove> Chess::GenerateMoves()
+{
+    moves.clear();
+    std::cout << "Moves Cleared!" << std::endl;
+
+    for (int from = 0; from < 64; from++)
+    {
+        ChessSquare* square = _grid->getSquareByIndex(from);
+        Bit *bit = square->bit();
+
+        if (bit && bit->getOwner()->playerNumber() == getCurrentPlayer()->playerNumber())
+        {
+            int piece = bit->gameTag();
+            if (piece == Bishop || piece == Rook || piece == Queen)
+            {
+                GenerateSlidingMoves(from, piece);
+            }
+            if (piece == Pawn)
+            {
+                GeneratePawnMoves(from, piece);
+            }
+            if (piece == Knight)
+            {
+                GenerateKnightMoves(from, piece);
+            }
+            if (piece == King)
+            {
+                GenerateKingMoves(from, piece);
+            }
+
+        }
+    }
+
+    return moves;
+}
+
+std::list<BitMove> Chess::GenerateSlidingMoves(int from, int piece)
+{
+
+    int startDir = (piece == Bishop) ? 4 : 0;
+    int endDir = (piece == Rook) ? 4 : 8;
+
+    Bit *fromPiece = _grid->getSquareByIndex(from)->bit();
+
+    // Loop through all eight directions
+
+    for (int dir = startDir; dir < endDir; dir++)
+    {
+        // Loop through every square in given direction
+
+        for (int n = 0; n < NumSquaresToEdge[from][dir]; n++)
+        {
+            int to = from + DirectionOffsets[dir] * (n + 1);
+
+            Bit *toPiece = _grid->getSquareByIndex(to)->bit();
+
+            if (toPiece && 
+                toPiece->getOwner()->playerNumber() == 
+                getCurrentPlayer()->playerNumber())
+            {
+                break;
+            }
+
+            if (toPiece &&
+                toPiece->getOwner()->playerNumber() !=
+                getCurrentPlayer()->playerNumber())
+            {
+                moves.emplace_back(from, to, piece);
+                break;
+            }
+
+            moves.emplace_back(from, to, piece);
+        }
+    }
+
+    return moves;
+}
+
+std::list<BitMove> Chess::GeneratePawnMoves(int from, int piece)
+{
+
+    int startDir = 0;
+    int endDir = 8;
+
+    Bit *fromPiece = _grid->getSquareByIndex(from)->bit();
+
+    // Loop through all eight directions
+
+    for (int dir = startDir; dir < endDir; dir++)
+    {
+
+        // Skip directions a pawn can't move in (white or black)
+
+        if (fromPiece && fromPiece->getOwner()->playerNumber() == 0 && DirectionOffsets[dir] < 7)
+        {
+            continue;
+        }
+
+        if (fromPiece && fromPiece->getOwner()->playerNumber() == 1 && DirectionOffsets[dir] > -7)
+        {
+            continue;
+        }
+
+        // Loop through every square in given direction
+
+        for (int n = 0; n < NumSquaresToEdge[from][dir]; n++)
+        {
+
+            if (fromPiece && 
+                // If dir is vertical . . . 
+                DirectionOffsets[dir] % 2 == 0 )
+            {
+                // If pawn is on starting square . . .
+                if (NumSquaresToEdge[from][dir] >= 6)
+                {
+                    if (n > 1)
+                    {
+                        break;
+                    }
+                }
+                else if (n > 0)
+                {
+                    break;
+                }
+                
+            }
+
+            int to = from + DirectionOffsets[dir] * (n + 1);
+
+            Bit *toPiece = _grid->getSquareByIndex(to)->bit();
+
+            if ( 
+                // If dir is diagonal . . . 
+                abs(DirectionOffsets[dir]) % 2 == 1 )
+            {
+                // If enemy piece on target square . . .
+                if (toPiece && toPiece->getOwner()->playerNumber() != 
+                    getCurrentPlayer()->playerNumber())
+                {
+                    if (n > 0)
+                    {
+                        break;
+                    }
+                }
+                else
+                {
+                    break;
+                }
+            }
+
+            moves.emplace_back(from, to, piece);
+        }
+    }
+
+    return moves;
+}
+
+std::list<BitMove> Chess::GenerateKnightMoves(int from, int piece)
+{
+
+    int startDir = 0;
+    int endDir = 8;
+
+    Bit *fromPiece = _grid->getSquareByIndex(from)->bit();
+
+    // Loop through all eight directions
+
+    for (int dir = startDir; dir < endDir; dir++)
+    {
+        int to = from + NDirectionOffsets[dir];
+
+        if (to < 0 || to >= 64)
+        {
+            continue;
+        }
+
+        Bit *toPiece = _grid->getSquareByIndex(to)->bit();
+
+        if (toPiece && 
+            toPiece->getOwner()->playerNumber() == 
+            getCurrentPlayer()->playerNumber())
+        {
+            continue;
+        }
+
+        moves.emplace_back(from, to, piece);
+
+    }
+
+    return moves;
+}
+
+std::list<BitMove> Chess::GenerateKingMoves(int from, int piece)
+{
+
+    int startDir = 0;
+    int endDir = 8;
+
+    Bit *fromPiece = _grid->getSquareByIndex(from)->bit();
+
+    // Loop through all eight directions
+
+    for (int dir = startDir; dir < endDir; dir++)
+    {
+        // Loop through every square in given direction
+
+        for (int n = 0; n < NumSquaresToEdge[from][dir]; n++)
+        {
+
+            if (n > 0)
+            {
+                break;
+            }
+
+            int to = from + DirectionOffsets[dir] * (n + 1);
+
+            Bit *toPiece = _grid->getSquareByIndex(to)->bit();
+
+            if (toPiece && 
+                toPiece->getOwner()->playerNumber() == 
+                getCurrentPlayer()->playerNumber())
+            {
+                break;
+            }
+
+            moves.emplace_back(from, to, piece);
+
+            if (toPiece &&
+                toPiece->getOwner()->playerNumber() !=
+                getCurrentPlayer()->playerNumber())
+            {
+                continue;
+            }
+        }
+    }
+
+    return moves;
+}
+
 
 char Chess::pieceNotation(int x, int y) const
 {
@@ -53,6 +330,9 @@ void Chess::setUpBoard()
     _grid->initializeChessSquares(pieceSize, "boardsquare.png");
     FENtoBoard("rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR");
 
+    PrecomputeMoveData();
+    GenerateMoves();
+
     startGame();
 }
 
@@ -83,7 +363,7 @@ void Chess::FENtoBoard(const std::string& fen) {
 
             if (std::isdigit(c)) // Skips c squares if empty
             {
-                file += c;
+                file += c - '0';
                 continue;
             }
 
@@ -115,9 +395,8 @@ void Chess::FENtoBoard(const std::string& fen) {
                 square->setBit(bit);
             }
 
-            std::cout << "Player: " << bit->getOwner()->playerNumber() << std::endl;
-
-            std::cout << "Square: " << pieceNotation(file, rank) << " - (" << file << ", " << rank << ")" << std::endl;
+            //std::cout << "Player: " << bit->getOwner()->playerNumber() << std::endl;
+            //std::cout << "Square: " << pieceNotation(file, rank) << " - (" << file << ", " << rank << ")" << std::endl;
 
             file++;
         }
@@ -150,7 +429,42 @@ bool Chess::canBitMoveFrom(Bit &bit, BitHolder &src)
 
 bool Chess::canBitMoveFromTo(Bit &bit, BitHolder &src, BitHolder &dst)
 {
-    return true;
+    ChessSquare* srcSquare = static_cast<ChessSquare*>(&src);
+    ChessSquare* dstSquare = static_cast<ChessSquare*>(&dst);
+
+    BitMove move(srcSquare->getSquareIndex(), dstSquare->getSquareIndex(), bit.gameTag());
+
+    auto it = find(moves.begin(), moves.end(), move);
+
+    // If the move from src to dst is valid . . .
+    if (it != moves.end())
+    {
+        return true;
+    }
+
+    return false;
+}
+
+void Chess::bitMovedFromTo(Bit &bit, BitHolder &src, BitHolder &dst) {
+    ChessSquare* srcSquare = static_cast<ChessSquare*>(&src);
+    ChessSquare* dstSquare = static_cast<ChessSquare*>(&dst);
+
+    int srcX = srcSquare->getColumn();
+    int srcY = srcSquare->getRow();
+    int dstX = dstSquare->getColumn();
+    int dstY = dstSquare->getRow();
+
+    Bit* toPiece = dstSquare->bit();
+
+    if (toPiece &&
+        toPiece->getOwner()->playerNumber() != bit.getOwner()->playerNumber())
+    {  
+        dstSquare->destroyBit();
+    }
+
+    endTurn();
+    GenerateMoves();
+    std::cout << "OOO!" << std::endl;
 }
 
 void Chess::stopGame()

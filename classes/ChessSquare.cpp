@@ -1,5 +1,7 @@
 #include "ChessSquare.h"
+#include "Player.h"
 #include <string>
+#include <iostream>
 
 void ChessSquare::initHolder(const ImVec2 &position, const char *spriteName, const int column, const int row)
 {
@@ -20,11 +22,12 @@ bool ChessSquare::canDropBitAtPoint(Bit *newbit, const ImVec2 &point)
     //
     // xor the gametags to see if we have opposing colors
     //
-    if ((bit()->gameTag() ^ newbit->gameTag()) >= 128)
+    if (bit()->getOwner()->playerNumber() == newbit->getOwner()->playerNumber())
     {
-        return true;
+        return false;
     }
-    return false;
+
+    return true;
 }
 
 bool ChessSquare::dropBitAtPoint(Bit *newbit, const ImVec2 &point)
@@ -37,14 +40,15 @@ bool ChessSquare::dropBitAtPoint(Bit *newbit, const ImVec2 &point)
         return true;
     }
     // we're taking a piece!
-    if ((bit()->gameTag() ^ newbit->gameTag()) >= 128)
+    if (bit()->getOwner()->playerNumber() == newbit->getOwner()->playerNumber())
     {
-        setBit(newbit);
-        newbit->setParent(this);
-        newbit->moveTo(getPosition());
-        return true;
+        return false;
     }
-    return false;
+    
+    setBit(newbit);
+    newbit->setParent(this);
+    newbit->moveTo(getPosition());
+    return true;
 }
 
 void ChessSquare::setHighlighted(bool highlighted)

@@ -5,6 +5,7 @@ CMakeFiles/demo.dir/Application.cpp.o: /home/electrickazoo/Assignments/chess-bas
   /home/electrickazoo/Assignments/chess-base-emette/Application.h \
   /home/electrickazoo/Assignments/chess-base-emette/classes/Bit.h \
   /home/electrickazoo/Assignments/chess-base-emette/classes/BitHolder.h \
+  /home/electrickazoo/Assignments/chess-base-emette/classes/Bitboard.h \
   /home/electrickazoo/Assignments/chess-base-emette/classes/Checkers.h \
   /home/electrickazoo/Assignments/chess-base-emette/classes/Chess.h \
   /home/electrickazoo/Assignments/chess-base-emette/classes/ChessSquare.h \
@@ -63,6 +64,7 @@ CMakeFiles/demo.dir/Application.cpp.o: /home/electrickazoo/Assignments/chess-bas
   /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/bits/ios_base.h \
   /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/bits/istream.tcc \
   /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/bits/iterator_concepts.h \
+  /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/bits/list.tcc \
   /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/bits/locale_classes.h \
   /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/bits/locale_classes.tcc \
   /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/bits/locale_conv.h \
@@ -112,6 +114,7 @@ CMakeFiles/demo.dir/Application.cpp.o: /home/electrickazoo/Assignments/chess-bas
   /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/bits/stl_iterator.h \
   /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/bits/stl_iterator_base_funcs.h \
   /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/bits/stl_iterator_base_types.h \
+  /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/bits/stl_list.h \
   /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/bits/stl_map.h \
   /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/bits/stl_multimap.h \
   /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/bits/stl_pair.h \
@@ -172,6 +175,7 @@ CMakeFiles/demo.dir/Application.cpp.o: /home/electrickazoo/Assignments/chess-bas
   /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/iostream \
   /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/istream \
   /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/limits \
+  /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/list \
   /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/locale \
   /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/map \
   /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/mutex \
@@ -830,6 +834,7 @@ CMakeFiles/demo.dir/classes/Chess.cpp.o: /home/electrickazoo/Assignments/chess-b
   /home/electrickazoo/Assignments/chess-base-emette/imgui/imgui.h \
   /home/electrickazoo/Assignments/chess-base-emette/classes/Bit.h \
   /home/electrickazoo/Assignments/chess-base-emette/classes/BitHolder.h \
+  /home/electrickazoo/Assignments/chess-base-emette/classes/Bitboard.h \
   /home/electrickazoo/Assignments/chess-base-emette/classes/Chess.h \
   /home/electrickazoo/Assignments/chess-base-emette/classes/ChessSquare.h \
   /home/electrickazoo/Assignments/chess-base-emette/classes/Entity.h \
@@ -882,6 +887,7 @@ CMakeFiles/demo.dir/classes/Chess.cpp.o: /home/electrickazoo/Assignments/chess-b
   /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/bits/ios_base.h \
   /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/bits/istream.tcc \
   /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/bits/iterator_concepts.h \
+  /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/bits/list.tcc \
   /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/bits/locale_classes.h \
   /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/bits/locale_classes.tcc \
   /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/bits/locale_conv.h \
@@ -932,6 +938,7 @@ CMakeFiles/demo.dir/classes/Chess.cpp.o: /home/electrickazoo/Assignments/chess-b
   /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/bits/stl_iterator.h \
   /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/bits/stl_iterator_base_funcs.h \
   /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/bits/stl_iterator_base_types.h \
+  /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/bits/stl_list.h \
   /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/bits/stl_map.h \
   /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/bits/stl_multimap.h \
   /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/bits/stl_pair.h \
@@ -993,6 +1000,7 @@ CMakeFiles/demo.dir/classes/Chess.cpp.o: /home/electrickazoo/Assignments/chess-b
   /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/iostream \
   /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/istream \
   /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/limits \
+  /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/list \
   /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/locale \
   /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/map \
   /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/mutex \
@@ -1184,11 +1192,14 @@ CMakeFiles/demo.dir/classes/ChessSquare.cpp.o: /home/electrickazoo/Assignments/c
   /home/electrickazoo/Assignments/chess-base-emette/classes/BitHolder.h \
   /home/electrickazoo/Assignments/chess-base-emette/classes/ChessSquare.h \
   /home/electrickazoo/Assignments/chess-base-emette/classes/Entity.h \
+  /home/electrickazoo/Assignments/chess-base-emette/classes/Player.h \
   /home/electrickazoo/Assignments/chess-base-emette/classes/Sprite.h \
   /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/backward/binders.h \
   /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/bit \
   /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/bits/alloc_traits.h \
   /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/bits/allocator.h \
+  /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/bits/basic_ios.h \
+  /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/bits/basic_ios.tcc \
   /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/bits/basic_string.h \
   /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/bits/basic_string.tcc \
   /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/bits/char_traits.h \
@@ -1196,19 +1207,32 @@ CMakeFiles/demo.dir/classes/ChessSquare.cpp.o: /home/electrickazoo/Assignments/c
   /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/bits/concept_check.h \
   /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/bits/cpp_type_traits.h \
   /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/bits/cxxabi_forced.h \
+  /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/bits/cxxabi_init_exception.h \
+  /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/bits/erase_if.h \
   /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/bits/exception.h \
   /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/bits/exception_defines.h \
+  /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/bits/exception_ptr.h \
   /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/bits/functexcept.h \
   /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/bits/functional_hash.h \
   /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/bits/hash_bytes.h \
   /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/bits/invoke.h \
+  /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/bits/ios_base.h \
+  /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/bits/istream.tcc \
   /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/bits/iterator_concepts.h \
+  /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/bits/locale_classes.h \
+  /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/bits/locale_classes.tcc \
+  /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/bits/locale_facets.h \
+  /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/bits/locale_facets.tcc \
   /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/bits/localefwd.h \
   /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/bits/max_size_type.h \
   /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/bits/memory_resource.h \
   /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/bits/memoryfwd.h \
   /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/bits/move.h \
+  /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/bits/nested_exception.h \
   /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/bits/new_allocator.h \
+  /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/bits/node_handle.h \
+  /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/bits/ostream.h \
+  /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/bits/ostream.tcc \
   /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/bits/ostream_insert.h \
   /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/bits/postypes.h \
   /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/bits/predefined_ops.h \
@@ -1226,7 +1250,12 @@ CMakeFiles/demo.dir/classes/ChessSquare.cpp.o: /home/electrickazoo/Assignments/c
   /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/bits/stl_iterator.h \
   /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/bits/stl_iterator_base_funcs.h \
   /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/bits/stl_iterator_base_types.h \
+  /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/bits/stl_map.h \
+  /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/bits/stl_multimap.h \
   /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/bits/stl_pair.h \
+  /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/bits/stl_tree.h \
+  /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/bits/streambuf.tcc \
+  /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/bits/streambuf_iterator.h \
   /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/bits/string_view.tcc \
   /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/bits/stringfwd.h \
   /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/bits/uses_allocator.h \
@@ -1243,25 +1272,44 @@ CMakeFiles/demo.dir/classes/ChessSquare.cpp.o: /home/electrickazoo/Assignments/c
   /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/cstdio \
   /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/cstdlib \
   /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/cwchar \
+  /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/cwctype \
   /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/debug/assertions.h \
   /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/debug/debug.h \
+  /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/exception \
+  /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/ext/aligned_buffer.h \
   /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/ext/alloc_traits.h \
+  /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/ext/atomicity.h \
   /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/ext/numeric_traits.h \
   /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/ext/string_conversions.h \
   /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/ext/type_traits.h \
   /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/initializer_list \
+  /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/ios \
   /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/iosfwd \
+  /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/iostream \
+  /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/istream \
+  /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/map \
   /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/new \
   /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/numbers \
+  /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/ostream \
   /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/pstl/pstl_config.h \
+  /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/stdexcept \
+  /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/streambuf \
   /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/string \
   /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/string_view \
+  /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/system_error \
   /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/tuple \
   /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/type_traits \
+  /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/typeinfo \
+  /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/x86_64-unknown-linux-gnu/bits/atomic_word.h \
   /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/x86_64-unknown-linux-gnu/bits/c++allocator.h \
   /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/x86_64-unknown-linux-gnu/bits/c++config.h \
   /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/x86_64-unknown-linux-gnu/bits/c++locale.h \
   /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/x86_64-unknown-linux-gnu/bits/cpu_defines.h \
+  /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/x86_64-unknown-linux-gnu/bits/ctype_base.h \
+  /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/x86_64-unknown-linux-gnu/bits/ctype_inline.h \
+  /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/x86_64-unknown-linux-gnu/bits/error_constants.h \
+  /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/x86_64-unknown-linux-gnu/bits/gthr-default.h \
+  /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/x86_64-unknown-linux-gnu/bits/gthr.h \
   /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/x86_64-unknown-linux-gnu/bits/os_defines.h \
   /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/lib/gcc/x86_64-unknown-linux-gnu/15.1.0/include/float.h \
   /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/lib/gcc/x86_64-unknown-linux-gnu/15.1.0/include/stdarg.h \
@@ -1274,6 +1322,7 @@ CMakeFiles/demo.dir/classes/ChessSquare.cpp.o: /home/electrickazoo/Assignments/c
   /nix/store/m3n0h7646c7qwf6dbvdqhslmxmv2dg3z-glibc-2.40-66-dev/include/assert.h \
   /nix/store/m3n0h7646c7qwf6dbvdqhslmxmv2dg3z-glibc-2.40-66-dev/include/bits/atomic_wide_counter.h \
   /nix/store/m3n0h7646c7qwf6dbvdqhslmxmv2dg3z-glibc-2.40-66-dev/include/bits/byteswap.h \
+  /nix/store/m3n0h7646c7qwf6dbvdqhslmxmv2dg3z-glibc-2.40-66-dev/include/bits/cpu-set.h \
   /nix/store/m3n0h7646c7qwf6dbvdqhslmxmv2dg3z-glibc-2.40-66-dev/include/bits/endian.h \
   /nix/store/m3n0h7646c7qwf6dbvdqhslmxmv2dg3z-glibc-2.40-66-dev/include/bits/endianness.h \
   /nix/store/m3n0h7646c7qwf6dbvdqhslmxmv2dg3z-glibc-2.40-66-dev/include/bits/errno.h \
@@ -1282,9 +1331,12 @@ CMakeFiles/demo.dir/classes/ChessSquare.cpp.o: /home/electrickazoo/Assignments/c
   /nix/store/m3n0h7646c7qwf6dbvdqhslmxmv2dg3z-glibc-2.40-66-dev/include/bits/libc-header-start.h \
   /nix/store/m3n0h7646c7qwf6dbvdqhslmxmv2dg3z-glibc-2.40-66-dev/include/bits/locale.h \
   /nix/store/m3n0h7646c7qwf6dbvdqhslmxmv2dg3z-glibc-2.40-66-dev/include/bits/long-double.h \
+  /nix/store/m3n0h7646c7qwf6dbvdqhslmxmv2dg3z-glibc-2.40-66-dev/include/bits/pthread_stack_min-dynamic.h \
   /nix/store/m3n0h7646c7qwf6dbvdqhslmxmv2dg3z-glibc-2.40-66-dev/include/bits/pthreadtypes-arch.h \
   /nix/store/m3n0h7646c7qwf6dbvdqhslmxmv2dg3z-glibc-2.40-66-dev/include/bits/pthreadtypes.h \
+  /nix/store/m3n0h7646c7qwf6dbvdqhslmxmv2dg3z-glibc-2.40-66-dev/include/bits/sched.h \
   /nix/store/m3n0h7646c7qwf6dbvdqhslmxmv2dg3z-glibc-2.40-66-dev/include/bits/select.h \
+  /nix/store/m3n0h7646c7qwf6dbvdqhslmxmv2dg3z-glibc-2.40-66-dev/include/bits/setjmp.h \
   /nix/store/m3n0h7646c7qwf6dbvdqhslmxmv2dg3z-glibc-2.40-66-dev/include/bits/stdint-intn.h \
   /nix/store/m3n0h7646c7qwf6dbvdqhslmxmv2dg3z-glibc-2.40-66-dev/include/bits/stdint-least.h \
   /nix/store/m3n0h7646c7qwf6dbvdqhslmxmv2dg3z-glibc-2.40-66-dev/include/bits/stdint-uintn.h \
@@ -1293,8 +1345,10 @@ CMakeFiles/demo.dir/classes/ChessSquare.cpp.o: /home/electrickazoo/Assignments/c
   /nix/store/m3n0h7646c7qwf6dbvdqhslmxmv2dg3z-glibc-2.40-66-dev/include/bits/struct_mutex.h \
   /nix/store/m3n0h7646c7qwf6dbvdqhslmxmv2dg3z-glibc-2.40-66-dev/include/bits/struct_rwlock.h \
   /nix/store/m3n0h7646c7qwf6dbvdqhslmxmv2dg3z-glibc-2.40-66-dev/include/bits/thread-shared-types.h \
+  /nix/store/m3n0h7646c7qwf6dbvdqhslmxmv2dg3z-glibc-2.40-66-dev/include/bits/time.h \
   /nix/store/m3n0h7646c7qwf6dbvdqhslmxmv2dg3z-glibc-2.40-66-dev/include/bits/time64.h \
   /nix/store/m3n0h7646c7qwf6dbvdqhslmxmv2dg3z-glibc-2.40-66-dev/include/bits/timesize.h \
+  /nix/store/m3n0h7646c7qwf6dbvdqhslmxmv2dg3z-glibc-2.40-66-dev/include/bits/timex.h \
   /nix/store/m3n0h7646c7qwf6dbvdqhslmxmv2dg3z-glibc-2.40-66-dev/include/bits/types.h \
   /nix/store/m3n0h7646c7qwf6dbvdqhslmxmv2dg3z-glibc-2.40-66-dev/include/bits/types/FILE.h \
   /nix/store/m3n0h7646c7qwf6dbvdqhslmxmv2dg3z-glibc-2.40-66-dev/include/bits/types/__FILE.h \
@@ -1311,8 +1365,12 @@ CMakeFiles/demo.dir/classes/ChessSquare.cpp.o: /home/electrickazoo/Assignments/c
   /nix/store/m3n0h7646c7qwf6dbvdqhslmxmv2dg3z-glibc-2.40-66-dev/include/bits/types/mbstate_t.h \
   /nix/store/m3n0h7646c7qwf6dbvdqhslmxmv2dg3z-glibc-2.40-66-dev/include/bits/types/sigset_t.h \
   /nix/store/m3n0h7646c7qwf6dbvdqhslmxmv2dg3z-glibc-2.40-66-dev/include/bits/types/struct_FILE.h \
+  /nix/store/m3n0h7646c7qwf6dbvdqhslmxmv2dg3z-glibc-2.40-66-dev/include/bits/types/struct___jmp_buf_tag.h \
+  /nix/store/m3n0h7646c7qwf6dbvdqhslmxmv2dg3z-glibc-2.40-66-dev/include/bits/types/struct_itimerspec.h \
+  /nix/store/m3n0h7646c7qwf6dbvdqhslmxmv2dg3z-glibc-2.40-66-dev/include/bits/types/struct_sched_param.h \
   /nix/store/m3n0h7646c7qwf6dbvdqhslmxmv2dg3z-glibc-2.40-66-dev/include/bits/types/struct_timespec.h \
   /nix/store/m3n0h7646c7qwf6dbvdqhslmxmv2dg3z-glibc-2.40-66-dev/include/bits/types/struct_timeval.h \
+  /nix/store/m3n0h7646c7qwf6dbvdqhslmxmv2dg3z-glibc-2.40-66-dev/include/bits/types/struct_tm.h \
   /nix/store/m3n0h7646c7qwf6dbvdqhslmxmv2dg3z-glibc-2.40-66-dev/include/bits/types/time_t.h \
   /nix/store/m3n0h7646c7qwf6dbvdqhslmxmv2dg3z-glibc-2.40-66-dev/include/bits/types/timer_t.h \
   /nix/store/m3n0h7646c7qwf6dbvdqhslmxmv2dg3z-glibc-2.40-66-dev/include/bits/types/wint_t.h \
@@ -1321,6 +1379,7 @@ CMakeFiles/demo.dir/classes/ChessSquare.cpp.o: /home/electrickazoo/Assignments/c
   /nix/store/m3n0h7646c7qwf6dbvdqhslmxmv2dg3z-glibc-2.40-66-dev/include/bits/waitflags.h \
   /nix/store/m3n0h7646c7qwf6dbvdqhslmxmv2dg3z-glibc-2.40-66-dev/include/bits/waitstatus.h \
   /nix/store/m3n0h7646c7qwf6dbvdqhslmxmv2dg3z-glibc-2.40-66-dev/include/bits/wchar.h \
+  /nix/store/m3n0h7646c7qwf6dbvdqhslmxmv2dg3z-glibc-2.40-66-dev/include/bits/wctype-wchar.h \
   /nix/store/m3n0h7646c7qwf6dbvdqhslmxmv2dg3z-glibc-2.40-66-dev/include/bits/wordsize.h \
   /nix/store/m3n0h7646c7qwf6dbvdqhslmxmv2dg3z-glibc-2.40-66-dev/include/ctype.h \
   /nix/store/m3n0h7646c7qwf6dbvdqhslmxmv2dg3z-glibc-2.40-66-dev/include/endian.h \
@@ -1331,6 +1390,8 @@ CMakeFiles/demo.dir/classes/ChessSquare.cpp.o: /home/electrickazoo/Assignments/c
   /nix/store/m3n0h7646c7qwf6dbvdqhslmxmv2dg3z-glibc-2.40-66-dev/include/gnu/stubs.h \
   /nix/store/m3n0h7646c7qwf6dbvdqhslmxmv2dg3z-glibc-2.40-66-dev/include/linux/errno.h \
   /nix/store/m3n0h7646c7qwf6dbvdqhslmxmv2dg3z-glibc-2.40-66-dev/include/locale.h \
+  /nix/store/m3n0h7646c7qwf6dbvdqhslmxmv2dg3z-glibc-2.40-66-dev/include/pthread.h \
+  /nix/store/m3n0h7646c7qwf6dbvdqhslmxmv2dg3z-glibc-2.40-66-dev/include/sched.h \
   /nix/store/m3n0h7646c7qwf6dbvdqhslmxmv2dg3z-glibc-2.40-66-dev/include/stdc-predef.h \
   /nix/store/m3n0h7646c7qwf6dbvdqhslmxmv2dg3z-glibc-2.40-66-dev/include/stdint.h \
   /nix/store/m3n0h7646c7qwf6dbvdqhslmxmv2dg3z-glibc-2.40-66-dev/include/stdio.h \
@@ -1339,8 +1400,11 @@ CMakeFiles/demo.dir/classes/ChessSquare.cpp.o: /home/electrickazoo/Assignments/c
   /nix/store/m3n0h7646c7qwf6dbvdqhslmxmv2dg3z-glibc-2.40-66-dev/include/strings.h \
   /nix/store/m3n0h7646c7qwf6dbvdqhslmxmv2dg3z-glibc-2.40-66-dev/include/sys/cdefs.h \
   /nix/store/m3n0h7646c7qwf6dbvdqhslmxmv2dg3z-glibc-2.40-66-dev/include/sys/select.h \
+  /nix/store/m3n0h7646c7qwf6dbvdqhslmxmv2dg3z-glibc-2.40-66-dev/include/sys/single_threaded.h \
   /nix/store/m3n0h7646c7qwf6dbvdqhslmxmv2dg3z-glibc-2.40-66-dev/include/sys/types.h \
-  /nix/store/m3n0h7646c7qwf6dbvdqhslmxmv2dg3z-glibc-2.40-66-dev/include/wchar.h
+  /nix/store/m3n0h7646c7qwf6dbvdqhslmxmv2dg3z-glibc-2.40-66-dev/include/time.h \
+  /nix/store/m3n0h7646c7qwf6dbvdqhslmxmv2dg3z-glibc-2.40-66-dev/include/wchar.h \
+  /nix/store/m3n0h7646c7qwf6dbvdqhslmxmv2dg3z-glibc-2.40-66-dev/include/wctype.h
 
 CMakeFiles/demo.dir/classes/Connect4.cpp.o: /home/electrickazoo/Assignments/chess-base-emette/classes/Connect4.cpp \
   /home/electrickazoo/Assignments/chess-base-emette/imgui/imconfig.h \
@@ -4760,6 +4824,8 @@ CMakeFiles/demo.dir/classes/Bit.cpp.o:
 
 /nix/store/dgjd3hf8ny62vbjg10w64x4jwm7cv81k-libxrender-0.9.12/lib/libXrender.so.1:
 
+/nix/store/55071y2xjibw8f317scvlg788w31k7k8-libxext-1.3.6/lib/libXext.so.6:
+
 /nix/store/m3n0h7646c7qwf6dbvdqhslmxmv2dg3z-glibc-2.40-66-dev/include/bits/semaphore.h:
 
 /nix/store/m3n0h7646c7qwf6dbvdqhslmxmv2dg3z-glibc-2.40-66-dev/include/bits/sched.h:
@@ -4972,33 +5038,27 @@ CMakeFiles/demo.dir/classes/Bit.cpp.o:
 
 /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/bits/unordered_map.h:
 
-/nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/cwchar:
+/nix/store/m3n0h7646c7qwf6dbvdqhslmxmv2dg3z-glibc-2.40-66-dev/include/bits/floatn.h:
 
 /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/bits/hashtable.h:
 
-/nix/store/m3n0h7646c7qwf6dbvdqhslmxmv2dg3z-glibc-2.40-66-dev/include/bits/floatn.h:
+/nix/store/m3n0h7646c7qwf6dbvdqhslmxmv2dg3z-glibc-2.40-66-dev/include/features.h:
 
-/nix/store/m3n0h7646c7qwf6dbvdqhslmxmv2dg3z-glibc-2.40-66-dev/include/bits/byteswap.h:
+/home/electrickazoo/Assignments/chess-base-emette/classes/Sprite.cpp:
 
-/nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/lib/gcc/x86_64-unknown-linux-gnu/15.1.0/include/avxvnniintrin.h:
+/nix/store/m3n0h7646c7qwf6dbvdqhslmxmv2dg3z-glibc-2.40-66-dev/include/inttypes.h:
 
-/nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/bits/hash_bytes.h:
+/nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/bits/uniform_int_dist.h:
 
-/home/electrickazoo/Assignments/chess-base-emette/imgui/imconfig.h:
+/nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/bits/unicode.h:
 
-/nix/store/c9bnl8fqhpswyav7pxb3w1nnlnyvyb5i-libxxf86vm-1.1.6/lib/libXxf86vm.so.1:
-
-/nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/bits/istream.tcc:
-
-/home/electrickazoo/Assignments/chess-base-emette/classes/BitHolder.h:
+/nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/cwchar:
 
 /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/bits/functional_hash.h:
 
 /nix/store/m3n0h7646c7qwf6dbvdqhslmxmv2dg3z-glibc-2.40-66-dev/include/bits/flt-eval-method.h:
 
 /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/lib/gcc/x86_64-unknown-linux-gnu/15.1.0/include/avx512vnniintrin.h:
-
-/nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/bits/unicode.h:
 
 /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/bits/uses_allocator.h:
 
@@ -5016,7 +5076,15 @@ CMakeFiles/demo.dir/classes/Bit.cpp.o:
 
 /home/electrickazoo/Assignments/chess-base-emette/classes/stb_image.h:
 
-/nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/bits/cpp_type_traits.h:
+/home/electrickazoo/Assignments/chess-base-emette/imgui/imconfig.h:
+
+/nix/store/c9bnl8fqhpswyav7pxb3w1nnlnyvyb5i-libxxf86vm-1.1.6/lib/libXxf86vm.so.1:
+
+/nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/bits/istream.tcc:
+
+/home/electrickazoo/Assignments/chess-base-emette/classes/BitHolder.h:
+
+/nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/bits/hash_bytes.h:
 
 /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/bits/charconv.h:
 
@@ -5029,6 +5097,10 @@ CMakeFiles/demo.dir/classes/Bit.cpp.o:
 /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/backward/binders.h:
 
 /nix/store/m3n0h7646c7qwf6dbvdqhslmxmv2dg3z-glibc-2.40-66-dev/include/linux/errno.h:
+
+/nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/bits/cpp_type_traits.h:
+
+/home/electrickazoo/Assignments/chess-base-emette/classes/Bitboard.h:
 
 /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/bits/locale_facets_nonio.tcc:
 
@@ -5084,21 +5156,23 @@ CMakeFiles/demo.dir/classes/TicTacToe.cpp.o:
 
 /nix/store/m3n0h7646c7qwf6dbvdqhslmxmv2dg3z-glibc-2.40-66-dev/include/bits/cpu-set.h:
 
-/nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/bits/invoke.h:
-
-/nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/x86_64-unknown-linux-gnu/bits/time_members.h:
-
-/nix/store/ja09m2gfni7pqk4bsrhjb8y9cq74rspp-libx11-1.8.12/lib/libX11.so.6:
-
-/nix/store/9babi8y8p9crps6l8sz5gr5xm5fljw1h-libxcb-1.17.0/lib/libxcb.so.1:
-
-/nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/bits/stl_iterator_base_types.h:
-
 /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/bits/algorithmfwd.h:
 
 /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/array:
 
 /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/lib/gcc/x86_64-unknown-linux-gnu/15.1.0/include/avxneconvertintrin.h:
+
+/nix/store/m3n0h7646c7qwf6dbvdqhslmxmv2dg3z-glibc-2.40-66-dev/include/bits/byteswap.h:
+
+/nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/lib/gcc/x86_64-unknown-linux-gnu/15.1.0/include/avxvnniintrin.h:
+
+/home/electrickazoo/Assignments/chess-base-emette/classes/ChessSquare.h:
+
+/home/electrickazoo/Assignments/chess-base-emette/imgui/imgui.h:
+
+/nix/store/m3n0h7646c7qwf6dbvdqhslmxmv2dg3z-glibc-2.40-66-dev/include/bits/errno.h:
+
+/nix/store/m3n0h7646c7qwf6dbvdqhslmxmv2dg3z-glibc-2.40-66-dev/include/sys/wait.h:
 
 /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/cstddef:
 
@@ -5109,6 +5183,10 @@ CMakeFiles/demo.dir/classes/TicTacToe.cpp.o:
 /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/x86_64-unknown-linux-gnu/bits/c++allocator.h:
 
 /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/bits/semaphore_base.h:
+
+/nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/bits/new_allocator.h:
+
+/nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/bits/chrono_io.h:
 
 /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/lib/gcc/x86_64-unknown-linux-gnu/15.1.0/include/tmmintrin.h:
 
@@ -5148,15 +5226,11 @@ CMakeFiles/demo.dir/classes/TicTacToe.cpp.o:
 
 /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/concepts:
 
-/nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/bits/chrono_io.h:
+/nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/tr1/poly_laguerre.tcc:
 
-/nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/bits/new_allocator.h:
+/nix/store/m3n0h7646c7qwf6dbvdqhslmxmv2dg3z-glibc-2.40-66-dev/include/stdc-predef.h:
 
-/nix/store/m3n0h7646c7qwf6dbvdqhslmxmv2dg3z-glibc-2.40-66-dev/include/features.h:
-
-/home/electrickazoo/Assignments/chess-base-emette/classes/Sprite.cpp:
-
-/nix/store/m3n0h7646c7qwf6dbvdqhslmxmv2dg3z-glibc-2.40-66-dev/include/inttypes.h:
+/nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/bits/atomic_futex.h:
 
 /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/bits/atomic_timed_wait.h:
 
@@ -5164,19 +5238,17 @@ CMakeFiles/demo.dir/classes/TicTacToe.cpp.o:
 
 /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/bits/vector.tcc:
 
-/nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/tr1/poly_laguerre.tcc:
+/nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/list:
 
-/nix/store/m3n0h7646c7qwf6dbvdqhslmxmv2dg3z-glibc-2.40-66-dev/include/stdc-predef.h:
+/nix/store/m3n0h7646c7qwf6dbvdqhslmxmv2dg3z-glibc-2.40-66-dev/include/bits/types/cookie_io_functions_t.h:
 
-/nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/bits/atomic_futex.h:
+/nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/tr1/modified_bessel_func.tcc:
+
+/nix/store/m3n0h7646c7qwf6dbvdqhslmxmv2dg3z-glibc-2.40-66-dev/include/bits/siginfo-arch.h:
 
 /home/electrickazoo/Assignments/chess-base-emette/classes/Grid.h:
 
 /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/atomic:
-
-/nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/ext/alloc_traits.h:
-
-/nix/store/m3n0h7646c7qwf6dbvdqhslmxmv2dg3z-glibc-2.40-66-dev/include/bits/stdlib-float.h:
 
 /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/semaphore:
 
@@ -5184,33 +5256,13 @@ CMakeFiles/demo.dir/classes/TicTacToe.cpp.o:
 
 /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/bits/functexcept.h:
 
-/nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/bits/unicode-data.h:
-
-/home/electrickazoo/Assignments/chess-base-emette/classes/ChessSquare.h:
-
-/home/electrickazoo/Assignments/chess-base-emette/imgui/imgui.h:
-
-/nix/store/m3n0h7646c7qwf6dbvdqhslmxmv2dg3z-glibc-2.40-66-dev/include/bits/errno.h:
-
-/nix/store/m3n0h7646c7qwf6dbvdqhslmxmv2dg3z-glibc-2.40-66-dev/include/sys/wait.h:
-
-/nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/bits/alloc_traits.h:
-
-/nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/pstl/execution_defs.h:
-
 /home/electrickazoo/Assignments/chess-base-emette/classes/Chess.h:
 
 /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/bits/unique_lock.h:
 
 /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/bits/formatfwd.h:
 
-/nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/bits/exception_defines.h:
-
-/nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/lib/gcc/x86_64-unknown-linux-gnu/15.1.0/include/mmintrin.h:
-
-/home/electrickazoo/Assignments/chess-base-emette/imgui/imgui_internal.h:
-
-/nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/lib/gcc/x86_64-unknown-linux-gnu/15.1.0/include/avx512vbmi2vlintrin.h:
+/nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/bits/unicode-data.h:
 
 /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/bits/char_traits.h:
 
@@ -5225,6 +5277,32 @@ CMakeFiles/demo.dir/classes/TicTacToe.cpp.o:
 /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/bits/nested_exception.h:
 
 /nix/store/m3n0h7646c7qwf6dbvdqhslmxmv2dg3z-glibc-2.40-66-dev/include/bits/types/clock_t.h:
+
+/nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/bits/alloc_traits.h:
+
+/nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/pstl/execution_defs.h:
+
+/nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/bits/exception_defines.h:
+
+/nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/bits/fs_path.h:
+
+/nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/x86_64-unknown-linux-gnu/bits/error_constants.h:
+
+/nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/lib/gcc/x86_64-unknown-linux-gnu/15.1.0/include/mmintrin.h:
+
+/home/electrickazoo/Assignments/chess-base-emette/imgui/imgui_internal.h:
+
+/nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/lib/gcc/x86_64-unknown-linux-gnu/15.1.0/include/avx512vbmi2vlintrin.h:
+
+/nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/bits/invoke.h:
+
+/nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/x86_64-unknown-linux-gnu/bits/time_members.h:
+
+/nix/store/ja09m2gfni7pqk4bsrhjb8y9cq74rspp-libx11-1.8.12/lib/libX11.so.6:
+
+/nix/store/9babi8y8p9crps6l8sz5gr5xm5fljw1h-libxcb-1.17.0/lib/libxcb.so.1:
+
+/nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/bits/stl_iterator_base_types.h:
 
 /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/span:
 
@@ -5243,6 +5321,10 @@ CMakeFiles/demo.dir/classes/ChessSquare.cpp.o:
 /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/bits/locale_facets_nonio.h:
 
 /home/electrickazoo/Assignments/chess-base-emette/classes/Connect4.cpp:
+
+/nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/bits/list.tcc:
+
+/nix/store/m3n0h7646c7qwf6dbvdqhslmxmv2dg3z-glibc-2.40-66-dev/include/libintl.h:
 
 /nix/store/xg9763xyrnkxhvqgvxdbfiwxnmz391rx-libxi-1.8.2/lib/libXi.so.6:
 
@@ -5292,8 +5374,6 @@ CMakeFiles/demo.dir/classes/Othello.cpp.o:
 
 /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/bits/parse_numbers.h:
 
-/nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/bits/uniform_int_dist.h:
-
 /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/lib/gcc/x86_64-unknown-linux-gnu/15.1.0/include/stdint.h:
 
 /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/lib/gcc/x86_64-unknown-linux-gnu/15.1.0/include/syslimits.h:
@@ -5323,8 +5403,6 @@ CMakeFiles/demo.dir/classes/Othello.cpp.o:
 /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/bits/range_access.h:
 
 /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/bits/shared_ptr.h:
-
-/nix/store/m3n0h7646c7qwf6dbvdqhslmxmv2dg3z-glibc-2.40-66-dev/include/bits/stdio_lim.h:
 
 /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/iosfwd:
 
@@ -5394,8 +5472,6 @@ CMakeFiles/demo.dir/classes/Othello.cpp.o:
 
 /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/bits/sstream.tcc:
 
-/nix/store/m3n0h7646c7qwf6dbvdqhslmxmv2dg3z-glibc-2.40-66-dev/include/bits/stdint-uintn.h:
-
 /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/ext/type_traits.h:
 
 /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/bits/std_function.h:
@@ -5450,6 +5526,14 @@ CMakeFiles/demo.dir/classes/Othello.cpp.o:
 
 /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/lib/gcc/x86_64-unknown-linux-gnu/15.1.0/include/amxint8intrin.h:
 
+/nix/store/m3n0h7646c7qwf6dbvdqhslmxmv2dg3z-glibc-2.40-66-dev/include/bits/stdint-uintn.h:
+
+/nix/store/m3n0h7646c7qwf6dbvdqhslmxmv2dg3z-glibc-2.40-66-dev/include/bits/stdio_lim.h:
+
+/nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/ext/alloc_traits.h:
+
+/nix/store/m3n0h7646c7qwf6dbvdqhslmxmv2dg3z-glibc-2.40-66-dev/include/bits/stdlib-float.h:
+
 /nix/store/m3n0h7646c7qwf6dbvdqhslmxmv2dg3z-glibc-2.40-66-dev/include/bits/syscall.h:
 
 /nix/store/m3n0h7646c7qwf6dbvdqhslmxmv2dg3z-glibc-2.40-66-dev/include/bits/time64.h:
@@ -5481,16 +5565,6 @@ CMakeFiles/demo.dir/classes/Othello.cpp.o:
 /nix/store/m3n0h7646c7qwf6dbvdqhslmxmv2dg3z-glibc-2.40-66-dev/include/bits/select.h:
 
 /nix/store/m3n0h7646c7qwf6dbvdqhslmxmv2dg3z-glibc-2.40-66-dev/include/bits/types/clockid_t.h:
-
-/nix/store/m3n0h7646c7qwf6dbvdqhslmxmv2dg3z-glibc-2.40-66-dev/include/bits/types/cookie_io_functions_t.h:
-
-/nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/tr1/modified_bessel_func.tcc:
-
-/nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/x86_64-unknown-linux-gnu/bits/error_constants.h:
-
-/nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/bits/fs_path.h:
-
-/nix/store/m3n0h7646c7qwf6dbvdqhslmxmv2dg3z-glibc-2.40-66-dev/include/bits/siginfo-arch.h:
 
 /nix/store/m3n0h7646c7qwf6dbvdqhslmxmv2dg3z-glibc-2.40-66-dev/include/endian.h:
 
@@ -5557,8 +5631,6 @@ CMakeFiles/demo.dir/imgui/imgui_tables.cpp.o:
 /nix/store/m3n0h7646c7qwf6dbvdqhslmxmv2dg3z-glibc-2.40-66-dev/include/gnu/stubs.h:
 
 /nix/store/m3n0h7646c7qwf6dbvdqhslmxmv2dg3z-glibc-2.40-66-dev/include/bits/types/sigevent_t.h:
-
-/nix/store/m3n0h7646c7qwf6dbvdqhslmxmv2dg3z-glibc-2.40-66-dev/include/libintl.h:
 
 /nix/store/m3n0h7646c7qwf6dbvdqhslmxmv2dg3z-glibc-2.40-66-dev/include/locale.h:
 
@@ -5653,6 +5725,10 @@ CMakeFiles/demo.dir/imgui/imgui_tables.cpp.o:
 /nix/store/m3n0h7646c7qwf6dbvdqhslmxmv2dg3z-glibc-2.40-66-dev/include/math.h:
 
 /home/electrickazoo/Assignments/chess-base-emette/classes/BitHolder.cpp:
+
+/nix/store/02967njjlkrskapfy99fpacns5d0znjr-libxinerama-1.1.5/lib/libXinerama.so.1:
+
+/home/electrickazoo/Assignments/chess-base-emette/classes/Othello.cpp:
 
 /home/electrickazoo/Assignments/chess-base-emette/imgui/imgui_impl_opengl3_loader.h:
 
@@ -5812,6 +5888,8 @@ CMakeFiles/demo.dir/imgui/imgui_impl_glfw.cpp.o:
 
 /nix/store/m3n0h7646c7qwf6dbvdqhslmxmv2dg3z-glibc-2.40-66-dev/include/bits/types/struct_sigstack.h:
 
+/nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/bits/stl_list.h:
+
 /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/lib/gcc/x86_64-unknown-linux-gnu/15.1.0/include/uintrintrin.h:
 
 CMakeFiles/demo.dir/classes/Checkers.cpp.o:
@@ -5885,9 +5963,3 @@ CMakeFiles/demo.dir/classes/Checkers.cpp.o:
 /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/lib/gcc/x86_64-unknown-linux-gnu/15.1.0/crtbegin.o:
 
 /home/electrickazoo/Assignments/chess-base-emette/imgui/imgui_tables.cpp:
-
-/home/electrickazoo/Assignments/chess-base-emette/classes/Othello.cpp:
-
-/nix/store/02967njjlkrskapfy99fpacns5d0znjr-libxinerama-1.1.5/lib/libXinerama.so.1:
-
-/nix/store/55071y2xjibw8f317scvlg788w31k7k8-libxext-1.3.6/lib/libXext.so.6:

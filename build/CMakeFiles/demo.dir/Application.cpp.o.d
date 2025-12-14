@@ -330,4 +330,8 @@ CMakeFiles/demo.dir/Application.cpp.o: \
  /home/electrickazoo/Assignments/chess-base-emette/classes/Checkers.h \
  /home/electrickazoo/Assignments/chess-base-emette/classes/Othello.h \
  /home/electrickazoo/Assignments/chess-base-emette/classes/Connect4.h \
- /home/electrickazoo/Assignments/chess-base-emette/classes/Chess.h
+ /home/electrickazoo/Assignments/chess-base-emette/classes/Chess.h \
+ /home/electrickazoo/Assignments/chess-base-emette/classes/Bitboard.h \
+ /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/list \
+ /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/bits/stl_list.h \
+ /nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/bits/list.tcc

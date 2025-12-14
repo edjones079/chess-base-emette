@@ -2,19 +2,11 @@
 
 #include "Game.h"
 #include "Grid.h"
+#include "Bitboard.h"
+
+#include <list>
 
 constexpr int pieceSize = 80;
-
-enum ChessPiece
-{
-    NoPiece,
-    Pawn,
-    Knight,
-    Bishop,
-    Rook,
-    Queen,
-    King
-};
 
 class Chess : public Game
 {
@@ -26,6 +18,7 @@ public:
 
     bool canBitMoveFrom(Bit &bit, BitHolder &src) override;
     bool canBitMoveFromTo(Bit &bit, BitHolder &src, BitHolder &dst) override;
+    void bitMovedFromTo(Bit &bit, BitHolder &src, BitHolder &dst) override;
     bool actionForEmptyHolder(BitHolder &holder) override;
 
     void stopGame() override;
@@ -39,6 +32,15 @@ public:
 
     Grid* getGrid() override { return _grid; }
 
+    // Precomputed Move Data - Sebastian Lague
+
+    static void PrecomputeMoveData();
+    std::list<BitMove> GenerateMoves();
+    std::list<BitMove> GenerateSlidingMoves(int from, int piece);
+    std::list<BitMove> GeneratePawnMoves(int from, int piece);
+    std::list<BitMove> GenerateKnightMoves(int from, int piece);
+    std::list<BitMove> GenerateKingMoves(int from, int piece);
+
 private:
     Bit* PieceForPlayer(const int playerNumber, ChessPiece piece);
     Player* ownerAt(int x, int y) const;
@@ -46,4 +48,10 @@ private:
     char pieceNotation(int x, int y) const;
 
     Grid* _grid;
+
+    static int DirectionOffsets[8];
+    static int NDirectionOffsets[8];
+    static int NumSquaresToEdge[64][8];
+    std::list<BitMove> moves;
+
 };
