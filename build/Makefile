@@ -57,10 +57,10 @@ RM = /nix/store/sywrvcqgm7bf6njpfbkhd8iy4iaymhj2-cmake-3.31.6/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/electrickazoo/Assignments/chess-base-emette
+CMAKE_SOURCE_DIR = /home/electrickazoo/Assignments/chess-ai-engine
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/electrickazoo/Assignments/chess-base-emette/build
+CMAKE_BINARY_DIR = /home/electrickazoo/Assignments/chess-ai-engine/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -78,7 +78,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Run CPack packaging tool for source..."
-	/nix/store/sywrvcqgm7bf6njpfbkhd8iy4iaymhj2-cmake-3.31.6/bin/cpack --config ./CPackSourceConfig.cmake /home/electrickazoo/Assignments/chess-base-emette/build/CPackSourceConfig.cmake
+	/nix/store/sywrvcqgm7bf6njpfbkhd8iy4iaymhj2-cmake-3.31.6/bin/cpack --config ./CPackSourceConfig.cmake /home/electrickazoo/Assignments/chess-ai-engine/build/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -117,9 +117,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/electrickazoo/Assignments/chess-base-emette/build/CMakeFiles /home/electrickazoo/Assignments/chess-base-emette/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/electrickazoo/Assignments/chess-ai-engine/build/CMakeFiles /home/electrickazoo/Assignments/chess-ai-engine/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/electrickazoo/Assignments/chess-base-emette/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/electrickazoo/Assignments/chess-ai-engine/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

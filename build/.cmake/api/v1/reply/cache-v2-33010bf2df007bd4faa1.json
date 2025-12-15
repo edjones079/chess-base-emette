@@ -43,7 +43,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/run/current-system/sw/bin/addr2line"
+			"value" : "/nix/store/vr15iyyykg9zai6fpgvhcgyw7gckl78w-gcc-wrapper-14.3.0/bin/addr2line"
 		},
 		{
 			"name" : "CMAKE_AR",
@@ -59,7 +59,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/run/current-system/sw/bin/ar"
+			"value" : "/nix/store/vr15iyyykg9zai6fpgvhcgyw7gckl78w-gcc-wrapper-14.3.0/bin/ar"
 		},
 		{
 			"name" : "CMAKE_BUILD_TYPE",
@@ -83,7 +83,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/electrickazoo/Assignments/chess-base-emette/build"
+			"value" : "/home/electrickazoo/Assignments/chess-ai-engine/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -190,8 +190,8 @@
 					"value" : "CXX compiler"
 				}
 			],
-			"type" : "FILEPATH",
-			"value" : "/run/current-system/sw/bin/c++"
+			"type" : "STRING",
+			"value" : "/nix/store/vr15iyyykg9zai6fpgvhcgyw7gckl78w-gcc-wrapper-14.3.0/bin/g++"
 		},
 		{
 			"name" : "CMAKE_CXX_COMPILER_AR",
@@ -207,7 +207,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/run/current-system/sw/bin/gcc-ar"
+			"value" : "/nix/store/kzq78n13l8w24jn8bx4djj79k5j717f1-gcc-14.3.0/bin/gcc-ar"
 		},
 		{
 			"name" : "CMAKE_CXX_COMPILER_RANLIB",
@@ -223,7 +223,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/run/current-system/sw/bin/gcc-ranlib"
+			"value" : "/nix/store/kzq78n13l8w24jn8bx4djj79k5j717f1-gcc-14.3.0/bin/gcc-ranlib"
 		},
 		{
 			"name" : "CMAKE_CXX_FLAGS",
@@ -318,8 +318,8 @@
 					"value" : "C compiler"
 				}
 			],
-			"type" : "FILEPATH",
-			"value" : "/run/current-system/sw/bin/cc"
+			"type" : "STRING",
+			"value" : "/nix/store/vr15iyyykg9zai6fpgvhcgyw7gckl78w-gcc-wrapper-14.3.0/bin/gcc"
 		},
 		{
 			"name" : "CMAKE_C_COMPILER_AR",
@@ -335,7 +335,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/run/current-system/sw/bin/gcc-ar"
+			"value" : "/nix/store/kzq78n13l8w24jn8bx4djj79k5j717f1-gcc-14.3.0/bin/gcc-ar"
 		},
 		{
 			"name" : "CMAKE_C_COMPILER_RANLIB",
@@ -351,7 +351,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/run/current-system/sw/bin/gcc-ranlib"
+			"value" : "/nix/store/kzq78n13l8w24jn8bx4djj79k5j717f1-gcc-14.3.0/bin/gcc-ranlib"
 		},
 		{
 			"name" : "CMAKE_C_FLAGS",
@@ -579,7 +579,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/electrickazoo/Assignments/chess-base-emette/build/CMakeFiles/pkgRedirects"
+			"value" : "/home/electrickazoo/Assignments/chess-ai-engine/build/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -651,7 +651,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/electrickazoo/Assignments/chess-base-emette"
+			"value" : "/home/electrickazoo/Assignments/chess-ai-engine"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -663,7 +663,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "/home/electrickazoo/Assignments/chess-base-emette/build/YES"
+			"value" : "/home/electrickazoo/Assignments/chess-ai-engine/build/YES"
 		},
 		{
 			"name" : "CMAKE_INSTALL_SO_NO_EXE",
@@ -691,7 +691,19 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/run/current-system/sw/bin/ld"
+			"value" : "/nix/store/vr15iyyykg9zai6fpgvhcgyw7gckl78w-gcc-wrapper-14.3.0/bin/ld"
+		},
+		{
+			"name" : "CMAKE_LIST_FILE_NAME",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Name of CMakeLists files to read"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "CMakeLists.txt"
 		},
 		{
 			"name" : "CMAKE_MAKE_PROGRAM",
@@ -707,7 +719,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/run/current-system/sw/bin/make"
+			"value" : "/nix/store/3fmzbq9y4m9nk235il7scmvwn8j9zy3p-gnumake-4.4.1/bin/make"
 		},
 		{
 			"name" : "CMAKE_MODULE_LINKER_FLAGS",
@@ -803,7 +815,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/run/current-system/sw/bin/nm"
+			"value" : "/nix/store/vr15iyyykg9zai6fpgvhcgyw7gckl78w-gcc-wrapper-14.3.0/bin/nm"
 		},
 		{
 			"name" : "CMAKE_NUMBER_OF_MAKEFILES",
@@ -831,7 +843,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/run/current-system/sw/bin/objcopy"
+			"value" : "/nix/store/vr15iyyykg9zai6fpgvhcgyw7gckl78w-gcc-wrapper-14.3.0/bin/objcopy"
 		},
 		{
 			"name" : "CMAKE_OBJDUMP",
@@ -847,7 +859,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/run/current-system/sw/bin/objdump"
+			"value" : "/nix/store/vr15iyyykg9zai6fpgvhcgyw7gckl78w-gcc-wrapper-14.3.0/bin/objdump"
 		},
 		{
 			"name" : "CMAKE_PLATFORM_INFO_INITIALIZED",
@@ -860,6 +872,18 @@
 			],
 			"type" : "INTERNAL",
 			"value" : "1"
+		},
+		{
+			"name" : "CMAKE_PROJECT_COMPAT_VERSION",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : ""
 		},
 		{
 			"name" : "CMAKE_PROJECT_DESCRIPTION",
@@ -971,7 +995,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/run/current-system/sw/bin/ranlib"
+			"value" : "/nix/store/vr15iyyykg9zai6fpgvhcgyw7gckl78w-gcc-wrapper-14.3.0/bin/ranlib"
 		},
 		{
 			"name" : "CMAKE_READELF",
@@ -987,7 +1011,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/run/current-system/sw/bin/readelf"
+			"value" : "/nix/store/vr15iyyykg9zai6fpgvhcgyw7gckl78w-gcc-wrapper-14.3.0/bin/readelf"
 		},
 		{
 			"name" : "CMAKE_ROOT",
@@ -1123,7 +1147,7 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "Flags used by the linker during the creation of static libraries during all build types."
+					"value" : "Flags used by the archiver during the creation of static libraries during all build types."
 				}
 			],
 			"type" : "STRING",
@@ -1139,7 +1163,7 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "Flags used by the linker during the creation of static libraries during DEBUG builds."
+					"value" : "Flags used by the archiver during the creation of static libraries during DEBUG builds."
 				}
 			],
 			"type" : "STRING",
@@ -1155,7 +1179,7 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "Flags used by the linker during the creation of static libraries during MINSIZEREL builds."
+					"value" : "Flags used by the archiver during the creation of static libraries during MINSIZEREL builds."
 				}
 			],
 			"type" : "STRING",
@@ -1171,7 +1195,7 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "Flags used by the linker during the creation of static libraries during RELEASE builds."
+					"value" : "Flags used by the archiver during the creation of static libraries during RELEASE builds."
 				}
 			],
 			"type" : "STRING",
@@ -1187,7 +1211,7 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "Flags used by the linker during the creation of static libraries during RELWITHDEBINFO builds."
+					"value" : "Flags used by the archiver during the creation of static libraries during RELWITHDEBINFO builds."
 				}
 			],
 			"type" : "STRING",
@@ -1207,7 +1231,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/run/current-system/sw/bin/strip"
+			"value" : "/nix/store/vr15iyyykg9zai6fpgvhcgyw7gckl78w-gcc-wrapper-14.3.0/bin/strip"
 		},
 		{
 			"name" : "CMAKE_TAPI",
@@ -1235,7 +1259,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/run/current-system/sw/bin/uname"
+			"value" : "/nix/store/imad8dvhp77h0pjbckp6wvmnyhp8dpgg-coreutils-9.8/bin/uname"
 		},
 		{
 			"name" : "CMAKE_VERBOSE_MAKEFILE",
@@ -1267,7 +1291,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/run/current-system/sw/bin/gcov"
+			"value" : "/nix/store/kzq78n13l8w24jn8bx4djj79k5j717f1-gcc-14.3.0/bin/gcov"
 		},
 		{
 			"name" : "COVERAGE_EXTRA_FLAGS",
@@ -1691,7 +1715,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : "/nix/store/sywrvcqgm7bf6njpfbkhd8iy4iaymhj2-cmake-3.31.6/bin/cmake --build . --config \"${CTEST_CONFIGURATION_TYPE}\""
+			"value" : "/nix/store/w9jm660dykns6hzrdhxmqfywnc9ail8g-cmake-4.1.2/bin/cmake --build . --config \"${CTEST_CONFIGURATION_TYPE}\""
 		},
 		{
 			"name" : "MEMORYCHECK_COMMAND",
@@ -2043,7 +2067,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/electrickazoo/Assignments/chess-base-emette/build"
+			"value" : "/home/electrickazoo/Assignments/chess-ai-engine/build"
 		},
 		{
 			"name" : "chess_IS_TOP_LEVEL",
@@ -2067,7 +2091,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/electrickazoo/Assignments/chess-base-emette"
+			"value" : "/home/electrickazoo/Assignments/chess-ai-engine"
 		},
 		{
 			"name" : "glfw3_DIR",
@@ -2080,42 +2104,6 @@
 			],
 			"type" : "PATH",
 			"value" : "/nix/store/3w6v0n3hr9gczwmxkpb89q5jywrkkkas-glfw-3.4/lib/cmake/glfw3"
-		},
-		{
-			"name" : "tictactoe_BINARY_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "/home/electrickazoo/Assignments/chess-base-emette/build"
-		},
-		{
-			"name" : "tictactoe_IS_TOP_LEVEL",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "ON"
-		},
-		{
-			"name" : "tictactoe_SOURCE_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "/home/electrickazoo/Assignments/chess-base-emette"
 		}
 	],
 	"kind" : "cache",

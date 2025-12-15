@@ -301,8 +301,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/home/electrickazoo/Assignments/chess-base-emette/build",
-		"source" : "/home/electrickazoo/Assignments/chess-base-emette"
+		"build" : "/home/electrickazoo/Assignments/chess-ai-engine/build",
+		"source" : "/home/electrickazoo/Assignments/chess-ai-engine"
 	},
 	"version" : 
 	{

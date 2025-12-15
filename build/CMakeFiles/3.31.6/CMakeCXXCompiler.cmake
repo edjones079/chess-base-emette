@@ -1,7 +1,7 @@
-set(CMAKE_CXX_COMPILER "/run/current-system/sw/bin/c++")
+set(CMAKE_CXX_COMPILER "/nix/store/vr15iyyykg9zai6fpgvhcgyw7gckl78w-gcc-wrapper-14.3.0/bin/g++")
 set(CMAKE_CXX_COMPILER_ARG1 "")
 set(CMAKE_CXX_COMPILER_ID "GNU")
-set(CMAKE_CXX_COMPILER_VERSION "15.1.0")
+set(CMAKE_CXX_COMPILER_VERSION "14.3.0")
 set(CMAKE_CXX_COMPILER_VERSION_INTERNAL "")
 set(CMAKE_CXX_COMPILER_WRAPPER "")
 set(CMAKE_CXX_STANDARD_COMPUTED_DEFAULT "17")
@@ -24,14 +24,14 @@ set(CMAKE_CXX_SIMULATE_VERSION "")
 
 
 
-set(CMAKE_AR "/run/current-system/sw/bin/ar")
-set(CMAKE_CXX_COMPILER_AR "/run/current-system/sw/bin/gcc-ar")
-set(CMAKE_RANLIB "/run/current-system/sw/bin/ranlib")
-set(CMAKE_CXX_COMPILER_RANLIB "/run/current-system/sw/bin/gcc-ranlib")
-set(CMAKE_LINKER "/run/current-system/sw/bin/ld")
+set(CMAKE_AR "/nix/store/vr15iyyykg9zai6fpgvhcgyw7gckl78w-gcc-wrapper-14.3.0/bin/ar")
+set(CMAKE_CXX_COMPILER_AR "/nix/store/kzq78n13l8w24jn8bx4djj79k5j717f1-gcc-14.3.0/bin/gcc-ar")
+set(CMAKE_RANLIB "/nix/store/vr15iyyykg9zai6fpgvhcgyw7gckl78w-gcc-wrapper-14.3.0/bin/ranlib")
+set(CMAKE_CXX_COMPILER_RANLIB "/nix/store/kzq78n13l8w24jn8bx4djj79k5j717f1-gcc-14.3.0/bin/gcc-ranlib")
+set(CMAKE_LINKER "/nix/store/vr15iyyykg9zai6fpgvhcgyw7gckl78w-gcc-wrapper-14.3.0/bin/ld")
 set(CMAKE_LINKER_LINK "")
 set(CMAKE_LINKER_LLD "")
-set(CMAKE_CXX_COMPILER_LINKER "/nix/store/wlzvi1mvdx5ifpaxpw1hc1hcm3ia4wj2-binutils-wrapper-2.44/bin/ld")
+set(CMAKE_CXX_COMPILER_LINKER "/nix/store/xwydcyvlsa3cvssk0y5llgdhlhjvmqdm-binutils-wrapper-2.44/bin/ld")
 set(CMAKE_CXX_COMPILER_LINKER_ID "GNU")
 set(CMAKE_CXX_COMPILER_LINKER_VERSION 2.44)
 set(CMAKE_CXX_COMPILER_LINKER_FRONTEND_VARIANT GNU)
@@ -87,9 +87,9 @@ endif()
 
 
 
-set(CMAKE_CXX_IMPLICIT_INCLUDE_DIRECTORIES "/nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/lib/gcc/x86_64-unknown-linux-gnu/15.1.0/adainclude;/nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/lib/gcc/x86_64-unknown-linux-gnu/15.1.0/include;/nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/lib/gcc/x86_64-unknown-linux-gnu/15.1.0/include-fixed;/nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0;/nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/x86_64-unknown-linux-gnu;/nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include/c++/15.1.0/backward;/nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/include;/nix/store/m3n0h7646c7qwf6dbvdqhslmxmv2dg3z-glibc-2.40-66-dev/include")
+set(CMAKE_CXX_IMPLICIT_INCLUDE_DIRECTORIES "/nix/store/kzq78n13l8w24jn8bx4djj79k5j717f1-gcc-14.3.0/include/c++/14.3.0;/nix/store/kzq78n13l8w24jn8bx4djj79k5j717f1-gcc-14.3.0/include/c++/14.3.0/x86_64-unknown-linux-gnu;/nix/store/kzq78n13l8w24jn8bx4djj79k5j717f1-gcc-14.3.0/include/c++/14.3.0/backward;/nix/store/kzq78n13l8w24jn8bx4djj79k5j717f1-gcc-14.3.0/lib/gcc/x86_64-unknown-linux-gnu/14.3.0/include;/nix/store/kzq78n13l8w24jn8bx4djj79k5j717f1-gcc-14.3.0/include;/nix/store/kzq78n13l8w24jn8bx4djj79k5j717f1-gcc-14.3.0/lib/gcc/x86_64-unknown-linux-gnu/14.3.0/include-fixed;/nix/store/gi4cz4ir3zlwhf1azqfgxqdnczfrwsr7-glibc-2.40-66-dev/include")
 set(CMAKE_CXX_IMPLICIT_LINK_LIBRARIES "stdc++;m;gcc_s;gcc;c;gcc_s;gcc")
-set(CMAKE_CXX_IMPLICIT_LINK_DIRECTORIES "/nix/store/g8zyryr9cr6540xsyg4avqkwgxpnwj2a-glibc-2.40-66/lib;/nix/store/nj2mhwvwr73p43n2a4wx9sb4qdqr2ayr-gnat-15.1.0-lib/lib;/nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/lib/gcc/x86_64-unknown-linux-gnu/15.1.0;/nix/store/wlzvi1mvdx5ifpaxpw1hc1hcm3ia4wj2-binutils-wrapper-2.44/bin;/nix/store/f5niz89d33zjxd8yxg20qxwvzc2yd8pr-gnat-15.1.0/lib")
+set(CMAKE_CXX_IMPLICIT_LINK_DIRECTORIES "/nix/store/xx7cm72qy2c0643cm1ipngd87aqwkcdp-glibc-2.40-66/lib;/nix/store/kzq78n13l8w24jn8bx4djj79k5j717f1-gcc-14.3.0/lib/gcc/x86_64-unknown-linux-gnu/14.3.0;/nix/store/xm08aqdd7pxcdhm0ak6aqb1v7hw5q6ri-gcc-14.3.0-lib/lib;/nix/store/kzq78n13l8w24jn8bx4djj79k5j717f1-gcc-14.3.0/lib")
 set(CMAKE_CXX_IMPLICIT_LINK_FRAMEWORK_DIRECTORIES "")
 set(CMAKE_CXX_COMPILER_CLANG_RESOURCE_DIR "")
 

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Site BuildName="Linux-c++"
-	BuildStamp="20251212-2012-Experimental"
+<Site BuildName="Linux-g++"
+	BuildStamp="20251214-0917-Experimental"
 	Name="wander"
 	Generator="ctest-3.31.6"
-	CompilerName="/run/current-system/sw/bin/c++"
-	CompilerVersion="15.1.0"
+	CompilerName="/nix/store/vr15iyyykg9zai6fpgvhcgyw7gckl78w-gcc-wrapper-14.3.0/bin/g++"
+	CompilerVersion="14.3.0"
 	OSName="Linux"
 	Hostname="wander"
 	OSRelease="6.12.51"
@@ -22,14 +22,14 @@
 	TotalVirtualMemory="34956"
 	TotalPhysicalMemory="31778"
 	LogicalProcessorsPerPhysical="1"
-	ProcessorClockFrequency="1012.58"
+	ProcessorClockFrequency="1276.14"
 	>
 	<Testing>
-		<StartDateTime>Dec 12 15:57 PST</StartDateTime>
-		<StartTestTime>1765583875</StartTestTime>
+		<StartDateTime>Dec 14 15:17 PST</StartDateTime>
+		<StartTestTime>1765754234</StartTestTime>
 		<TestList/>
-		<EndDateTime>Dec 12 15:57 PST</EndDateTime>
-		<EndTestTime>1765583875</EndTestTime>
+		<EndDateTime>Dec 14 15:17 PST</EndDateTime>
+		<EndTestTime>1765754234</EndTestTime>
 		<ElapsedMinutes>0</ElapsedMinutes>
 	</Testing>
 </Site>

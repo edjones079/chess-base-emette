@@ -53,10 +53,10 @@ RM = /nix/store/sywrvcqgm7bf6njpfbkhd8iy4iaymhj2-cmake-3.31.6/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/electrickazoo/Assignments/chess-base-emette
+CMAKE_SOURCE_DIR = /home/electrickazoo/Assignments/chess-ai-engine
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/electrickazoo/Assignments/chess-base-emette/build
+CMAKE_BINARY_DIR = /home/electrickazoo/Assignments/chess-ai-engine/build
 
 # Utility rule file for NightlyConfigure.
 
@@ -85,6 +85,6 @@ CMakeFiles/NightlyConfigure.dir/clean:
 .PHONY : CMakeFiles/NightlyConfigure.dir/clean
 
 CMakeFiles/NightlyConfigure.dir/depend:
-	cd /home/electrickazoo/Assignments/chess-base-emette/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/electrickazoo/Assignments/chess-base-emette /home/electrickazoo/Assignments/chess-base-emette /home/electrickazoo/Assignments/chess-base-emette/build /home/electrickazoo/Assignments/chess-base-emette/build /home/electrickazoo/Assignments/chess-base-emette/build/CMakeFiles/NightlyConfigure.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/electrickazoo/Assignments/chess-ai-engine/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/electrickazoo/Assignments/chess-ai-engine /home/electrickazoo/Assignments/chess-ai-engine /home/electrickazoo/Assignments/chess-ai-engine/build /home/electrickazoo/Assignments/chess-ai-engine/build /home/electrickazoo/Assignments/chess-ai-engine/build/CMakeFiles/NightlyConfigure.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/NightlyConfigure.dir/depend
 

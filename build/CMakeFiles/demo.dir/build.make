@@ -53,10 +53,10 @@ RM = /nix/store/sywrvcqgm7bf6njpfbkhd8iy4iaymhj2-cmake-3.31.6/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/electrickazoo/Assignments/chess-base-emette
+CMAKE_SOURCE_DIR = /home/electrickazoo/Assignments/chess-ai-engine
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/electrickazoo/Assignments/chess-base-emette/build
+CMAKE_BINARY_DIR = /home/electrickazoo/Assignments/chess-ai-engine/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/demo.dir/depend.make
@@ -73,298 +73,298 @@ CMakeFiles/demo.dir/codegen:
 .PHONY : CMakeFiles/demo.dir/codegen
 
 CMakeFiles/demo.dir/Application.cpp.o: CMakeFiles/demo.dir/flags.make
-CMakeFiles/demo.dir/Application.cpp.o: /home/electrickazoo/Assignments/chess-base-emette/Application.cpp
+CMakeFiles/demo.dir/Application.cpp.o: /home/electrickazoo/Assignments/chess-ai-engine/Application.cpp
 CMakeFiles/demo.dir/Application.cpp.o: CMakeFiles/demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/electrickazoo/Assignments/chess-base-emette/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/demo.dir/Application.cpp.o"
-	/run/current-system/sw/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/demo.dir/Application.cpp.o -MF CMakeFiles/demo.dir/Application.cpp.o.d -o CMakeFiles/demo.dir/Application.cpp.o -c /home/electrickazoo/Assignments/chess-base-emette/Application.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/electrickazoo/Assignments/chess-ai-engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/demo.dir/Application.cpp.o"
+	/nix/store/vr15iyyykg9zai6fpgvhcgyw7gckl78w-gcc-wrapper-14.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/demo.dir/Application.cpp.o -MF CMakeFiles/demo.dir/Application.cpp.o.d -o CMakeFiles/demo.dir/Application.cpp.o -c /home/electrickazoo/Assignments/chess-ai-engine/Application.cpp
 
 CMakeFiles/demo.dir/Application.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/demo.dir/Application.cpp.i"
-	/run/current-system/sw/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/electrickazoo/Assignments/chess-base-emette/Application.cpp > CMakeFiles/demo.dir/Application.cpp.i
+	/nix/store/vr15iyyykg9zai6fpgvhcgyw7gckl78w-gcc-wrapper-14.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/electrickazoo/Assignments/chess-ai-engine/Application.cpp > CMakeFiles/demo.dir/Application.cpp.i
 
 CMakeFiles/demo.dir/Application.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/demo.dir/Application.cpp.s"
-	/run/current-system/sw/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/electrickazoo/Assignments/chess-base-emette/Application.cpp -o CMakeFiles/demo.dir/Application.cpp.s
+	/nix/store/vr15iyyykg9zai6fpgvhcgyw7gckl78w-gcc-wrapper-14.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/electrickazoo/Assignments/chess-ai-engine/Application.cpp -o CMakeFiles/demo.dir/Application.cpp.s
 
 CMakeFiles/demo.dir/imgui/imgui_demo.cpp.o: CMakeFiles/demo.dir/flags.make
-CMakeFiles/demo.dir/imgui/imgui_demo.cpp.o: /home/electrickazoo/Assignments/chess-base-emette/imgui/imgui_demo.cpp
+CMakeFiles/demo.dir/imgui/imgui_demo.cpp.o: /home/electrickazoo/Assignments/chess-ai-engine/imgui/imgui_demo.cpp
 CMakeFiles/demo.dir/imgui/imgui_demo.cpp.o: CMakeFiles/demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/electrickazoo/Assignments/chess-base-emette/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/demo.dir/imgui/imgui_demo.cpp.o"
-	/run/current-system/sw/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/demo.dir/imgui/imgui_demo.cpp.o -MF CMakeFiles/demo.dir/imgui/imgui_demo.cpp.o.d -o CMakeFiles/demo.dir/imgui/imgui_demo.cpp.o -c /home/electrickazoo/Assignments/chess-base-emette/imgui/imgui_demo.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/electrickazoo/Assignments/chess-ai-engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/demo.dir/imgui/imgui_demo.cpp.o"
+	/nix/store/vr15iyyykg9zai6fpgvhcgyw7gckl78w-gcc-wrapper-14.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/demo.dir/imgui/imgui_demo.cpp.o -MF CMakeFiles/demo.dir/imgui/imgui_demo.cpp.o.d -o CMakeFiles/demo.dir/imgui/imgui_demo.cpp.o -c /home/electrickazoo/Assignments/chess-ai-engine/imgui/imgui_demo.cpp
 
 CMakeFiles/demo.dir/imgui/imgui_demo.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/demo.dir/imgui/imgui_demo.cpp.i"
-	/run/current-system/sw/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/electrickazoo/Assignments/chess-base-emette/imgui/imgui_demo.cpp > CMakeFiles/demo.dir/imgui/imgui_demo.cpp.i
+	/nix/store/vr15iyyykg9zai6fpgvhcgyw7gckl78w-gcc-wrapper-14.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/electrickazoo/Assignments/chess-ai-engine/imgui/imgui_demo.cpp > CMakeFiles/demo.dir/imgui/imgui_demo.cpp.i
 
 CMakeFiles/demo.dir/imgui/imgui_demo.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/demo.dir/imgui/imgui_demo.cpp.s"
-	/run/current-system/sw/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/electrickazoo/Assignments/chess-base-emette/imgui/imgui_demo.cpp -o CMakeFiles/demo.dir/imgui/imgui_demo.cpp.s
+	/nix/store/vr15iyyykg9zai6fpgvhcgyw7gckl78w-gcc-wrapper-14.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/electrickazoo/Assignments/chess-ai-engine/imgui/imgui_demo.cpp -o CMakeFiles/demo.dir/imgui/imgui_demo.cpp.s
 
 CMakeFiles/demo.dir/imgui/imgui_draw.cpp.o: CMakeFiles/demo.dir/flags.make
-CMakeFiles/demo.dir/imgui/imgui_draw.cpp.o: /home/electrickazoo/Assignments/chess-base-emette/imgui/imgui_draw.cpp
+CMakeFiles/demo.dir/imgui/imgui_draw.cpp.o: /home/electrickazoo/Assignments/chess-ai-engine/imgui/imgui_draw.cpp
 CMakeFiles/demo.dir/imgui/imgui_draw.cpp.o: CMakeFiles/demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/electrickazoo/Assignments/chess-base-emette/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/demo.dir/imgui/imgui_draw.cpp.o"
-	/run/current-system/sw/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/demo.dir/imgui/imgui_draw.cpp.o -MF CMakeFiles/demo.dir/imgui/imgui_draw.cpp.o.d -o CMakeFiles/demo.dir/imgui/imgui_draw.cpp.o -c /home/electrickazoo/Assignments/chess-base-emette/imgui/imgui_draw.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/electrickazoo/Assignments/chess-ai-engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/demo.dir/imgui/imgui_draw.cpp.o"
+	/nix/store/vr15iyyykg9zai6fpgvhcgyw7gckl78w-gcc-wrapper-14.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/demo.dir/imgui/imgui_draw.cpp.o -MF CMakeFiles/demo.dir/imgui/imgui_draw.cpp.o.d -o CMakeFiles/demo.dir/imgui/imgui_draw.cpp.o -c /home/electrickazoo/Assignments/chess-ai-engine/imgui/imgui_draw.cpp
 
 CMakeFiles/demo.dir/imgui/imgui_draw.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/demo.dir/imgui/imgui_draw.cpp.i"
-	/run/current-system/sw/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/electrickazoo/Assignments/chess-base-emette/imgui/imgui_draw.cpp > CMakeFiles/demo.dir/imgui/imgui_draw.cpp.i
+	/nix/store/vr15iyyykg9zai6fpgvhcgyw7gckl78w-gcc-wrapper-14.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/electrickazoo/Assignments/chess-ai-engine/imgui/imgui_draw.cpp > CMakeFiles/demo.dir/imgui/imgui_draw.cpp.i
 
 CMakeFiles/demo.dir/imgui/imgui_draw.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/demo.dir/imgui/imgui_draw.cpp.s"
-	/run/current-system/sw/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/electrickazoo/Assignments/chess-base-emette/imgui/imgui_draw.cpp -o CMakeFiles/demo.dir/imgui/imgui_draw.cpp.s
+	/nix/store/vr15iyyykg9zai6fpgvhcgyw7gckl78w-gcc-wrapper-14.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/electrickazoo/Assignments/chess-ai-engine/imgui/imgui_draw.cpp -o CMakeFiles/demo.dir/imgui/imgui_draw.cpp.s
 
 CMakeFiles/demo.dir/imgui/imgui_tables.cpp.o: CMakeFiles/demo.dir/flags.make
-CMakeFiles/demo.dir/imgui/imgui_tables.cpp.o: /home/electrickazoo/Assignments/chess-base-emette/imgui/imgui_tables.cpp
+CMakeFiles/demo.dir/imgui/imgui_tables.cpp.o: /home/electrickazoo/Assignments/chess-ai-engine/imgui/imgui_tables.cpp
 CMakeFiles/demo.dir/imgui/imgui_tables.cpp.o: CMakeFiles/demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/electrickazoo/Assignments/chess-base-emette/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/demo.dir/imgui/imgui_tables.cpp.o"
-	/run/current-system/sw/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/demo.dir/imgui/imgui_tables.cpp.o -MF CMakeFiles/demo.dir/imgui/imgui_tables.cpp.o.d -o CMakeFiles/demo.dir/imgui/imgui_tables.cpp.o -c /home/electrickazoo/Assignments/chess-base-emette/imgui/imgui_tables.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/electrickazoo/Assignments/chess-ai-engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/demo.dir/imgui/imgui_tables.cpp.o"
+	/nix/store/vr15iyyykg9zai6fpgvhcgyw7gckl78w-gcc-wrapper-14.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/demo.dir/imgui/imgui_tables.cpp.o -MF CMakeFiles/demo.dir/imgui/imgui_tables.cpp.o.d -o CMakeFiles/demo.dir/imgui/imgui_tables.cpp.o -c /home/electrickazoo/Assignments/chess-ai-engine/imgui/imgui_tables.cpp
 
 CMakeFiles/demo.dir/imgui/imgui_tables.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/demo.dir/imgui/imgui_tables.cpp.i"
-	/run/current-system/sw/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/electrickazoo/Assignments/chess-base-emette/imgui/imgui_tables.cpp > CMakeFiles/demo.dir/imgui/imgui_tables.cpp.i
+	/nix/store/vr15iyyykg9zai6fpgvhcgyw7gckl78w-gcc-wrapper-14.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/electrickazoo/Assignments/chess-ai-engine/imgui/imgui_tables.cpp > CMakeFiles/demo.dir/imgui/imgui_tables.cpp.i
 
 CMakeFiles/demo.dir/imgui/imgui_tables.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/demo.dir/imgui/imgui_tables.cpp.s"
-	/run/current-system/sw/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/electrickazoo/Assignments/chess-base-emette/imgui/imgui_tables.cpp -o CMakeFiles/demo.dir/imgui/imgui_tables.cpp.s
+	/nix/store/vr15iyyykg9zai6fpgvhcgyw7gckl78w-gcc-wrapper-14.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/electrickazoo/Assignments/chess-ai-engine/imgui/imgui_tables.cpp -o CMakeFiles/demo.dir/imgui/imgui_tables.cpp.s
 
 CMakeFiles/demo.dir/imgui/imgui_widgets.cpp.o: CMakeFiles/demo.dir/flags.make
-CMakeFiles/demo.dir/imgui/imgui_widgets.cpp.o: /home/electrickazoo/Assignments/chess-base-emette/imgui/imgui_widgets.cpp
+CMakeFiles/demo.dir/imgui/imgui_widgets.cpp.o: /home/electrickazoo/Assignments/chess-ai-engine/imgui/imgui_widgets.cpp
 CMakeFiles/demo.dir/imgui/imgui_widgets.cpp.o: CMakeFiles/demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/electrickazoo/Assignments/chess-base-emette/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/demo.dir/imgui/imgui_widgets.cpp.o"
-	/run/current-system/sw/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/demo.dir/imgui/imgui_widgets.cpp.o -MF CMakeFiles/demo.dir/imgui/imgui_widgets.cpp.o.d -o CMakeFiles/demo.dir/imgui/imgui_widgets.cpp.o -c /home/electrickazoo/Assignments/chess-base-emette/imgui/imgui_widgets.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/electrickazoo/Assignments/chess-ai-engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/demo.dir/imgui/imgui_widgets.cpp.o"
+	/nix/store/vr15iyyykg9zai6fpgvhcgyw7gckl78w-gcc-wrapper-14.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/demo.dir/imgui/imgui_widgets.cpp.o -MF CMakeFiles/demo.dir/imgui/imgui_widgets.cpp.o.d -o CMakeFiles/demo.dir/imgui/imgui_widgets.cpp.o -c /home/electrickazoo/Assignments/chess-ai-engine/imgui/imgui_widgets.cpp
 
 CMakeFiles/demo.dir/imgui/imgui_widgets.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/demo.dir/imgui/imgui_widgets.cpp.i"
-	/run/current-system/sw/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/electrickazoo/Assignments/chess-base-emette/imgui/imgui_widgets.cpp > CMakeFiles/demo.dir/imgui/imgui_widgets.cpp.i
+	/nix/store/vr15iyyykg9zai6fpgvhcgyw7gckl78w-gcc-wrapper-14.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/electrickazoo/Assignments/chess-ai-engine/imgui/imgui_widgets.cpp > CMakeFiles/demo.dir/imgui/imgui_widgets.cpp.i
 
 CMakeFiles/demo.dir/imgui/imgui_widgets.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/demo.dir/imgui/imgui_widgets.cpp.s"
-	/run/current-system/sw/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/electrickazoo/Assignments/chess-base-emette/imgui/imgui_widgets.cpp -o CMakeFiles/demo.dir/imgui/imgui_widgets.cpp.s
+	/nix/store/vr15iyyykg9zai6fpgvhcgyw7gckl78w-gcc-wrapper-14.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/electrickazoo/Assignments/chess-ai-engine/imgui/imgui_widgets.cpp -o CMakeFiles/demo.dir/imgui/imgui_widgets.cpp.s
 
 CMakeFiles/demo.dir/imgui/imgui.cpp.o: CMakeFiles/demo.dir/flags.make
-CMakeFiles/demo.dir/imgui/imgui.cpp.o: /home/electrickazoo/Assignments/chess-base-emette/imgui/imgui.cpp
+CMakeFiles/demo.dir/imgui/imgui.cpp.o: /home/electrickazoo/Assignments/chess-ai-engine/imgui/imgui.cpp
 CMakeFiles/demo.dir/imgui/imgui.cpp.o: CMakeFiles/demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/electrickazoo/Assignments/chess-base-emette/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/demo.dir/imgui/imgui.cpp.o"
-	/run/current-system/sw/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/demo.dir/imgui/imgui.cpp.o -MF CMakeFiles/demo.dir/imgui/imgui.cpp.o.d -o CMakeFiles/demo.dir/imgui/imgui.cpp.o -c /home/electrickazoo/Assignments/chess-base-emette/imgui/imgui.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/electrickazoo/Assignments/chess-ai-engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/demo.dir/imgui/imgui.cpp.o"
+	/nix/store/vr15iyyykg9zai6fpgvhcgyw7gckl78w-gcc-wrapper-14.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/demo.dir/imgui/imgui.cpp.o -MF CMakeFiles/demo.dir/imgui/imgui.cpp.o.d -o CMakeFiles/demo.dir/imgui/imgui.cpp.o -c /home/electrickazoo/Assignments/chess-ai-engine/imgui/imgui.cpp
 
 CMakeFiles/demo.dir/imgui/imgui.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/demo.dir/imgui/imgui.cpp.i"
-	/run/current-system/sw/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/electrickazoo/Assignments/chess-base-emette/imgui/imgui.cpp > CMakeFiles/demo.dir/imgui/imgui.cpp.i
+	/nix/store/vr15iyyykg9zai6fpgvhcgyw7gckl78w-gcc-wrapper-14.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/electrickazoo/Assignments/chess-ai-engine/imgui/imgui.cpp > CMakeFiles/demo.dir/imgui/imgui.cpp.i
 
 CMakeFiles/demo.dir/imgui/imgui.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/demo.dir/imgui/imgui.cpp.s"
-	/run/current-system/sw/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/electrickazoo/Assignments/chess-base-emette/imgui/imgui.cpp -o CMakeFiles/demo.dir/imgui/imgui.cpp.s
+	/nix/store/vr15iyyykg9zai6fpgvhcgyw7gckl78w-gcc-wrapper-14.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/electrickazoo/Assignments/chess-ai-engine/imgui/imgui.cpp -o CMakeFiles/demo.dir/imgui/imgui.cpp.s
 
 CMakeFiles/demo.dir/classes/Bit.cpp.o: CMakeFiles/demo.dir/flags.make
-CMakeFiles/demo.dir/classes/Bit.cpp.o: /home/electrickazoo/Assignments/chess-base-emette/classes/Bit.cpp
+CMakeFiles/demo.dir/classes/Bit.cpp.o: /home/electrickazoo/Assignments/chess-ai-engine/classes/Bit.cpp
 CMakeFiles/demo.dir/classes/Bit.cpp.o: CMakeFiles/demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/electrickazoo/Assignments/chess-base-emette/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/demo.dir/classes/Bit.cpp.o"
-	/run/current-system/sw/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/demo.dir/classes/Bit.cpp.o -MF CMakeFiles/demo.dir/classes/Bit.cpp.o.d -o CMakeFiles/demo.dir/classes/Bit.cpp.o -c /home/electrickazoo/Assignments/chess-base-emette/classes/Bit.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/electrickazoo/Assignments/chess-ai-engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/demo.dir/classes/Bit.cpp.o"
+	/nix/store/vr15iyyykg9zai6fpgvhcgyw7gckl78w-gcc-wrapper-14.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/demo.dir/classes/Bit.cpp.o -MF CMakeFiles/demo.dir/classes/Bit.cpp.o.d -o CMakeFiles/demo.dir/classes/Bit.cpp.o -c /home/electrickazoo/Assignments/chess-ai-engine/classes/Bit.cpp
 
 CMakeFiles/demo.dir/classes/Bit.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/demo.dir/classes/Bit.cpp.i"
-	/run/current-system/sw/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/electrickazoo/Assignments/chess-base-emette/classes/Bit.cpp > CMakeFiles/demo.dir/classes/Bit.cpp.i
+	/nix/store/vr15iyyykg9zai6fpgvhcgyw7gckl78w-gcc-wrapper-14.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/electrickazoo/Assignments/chess-ai-engine/classes/Bit.cpp > CMakeFiles/demo.dir/classes/Bit.cpp.i
 
 CMakeFiles/demo.dir/classes/Bit.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/demo.dir/classes/Bit.cpp.s"
-	/run/current-system/sw/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/electrickazoo/Assignments/chess-base-emette/classes/Bit.cpp -o CMakeFiles/demo.dir/classes/Bit.cpp.s
+	/nix/store/vr15iyyykg9zai6fpgvhcgyw7gckl78w-gcc-wrapper-14.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/electrickazoo/Assignments/chess-ai-engine/classes/Bit.cpp -o CMakeFiles/demo.dir/classes/Bit.cpp.s
 
 CMakeFiles/demo.dir/classes/BitHolder.cpp.o: CMakeFiles/demo.dir/flags.make
-CMakeFiles/demo.dir/classes/BitHolder.cpp.o: /home/electrickazoo/Assignments/chess-base-emette/classes/BitHolder.cpp
+CMakeFiles/demo.dir/classes/BitHolder.cpp.o: /home/electrickazoo/Assignments/chess-ai-engine/classes/BitHolder.cpp
 CMakeFiles/demo.dir/classes/BitHolder.cpp.o: CMakeFiles/demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/electrickazoo/Assignments/chess-base-emette/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/demo.dir/classes/BitHolder.cpp.o"
-	/run/current-system/sw/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/demo.dir/classes/BitHolder.cpp.o -MF CMakeFiles/demo.dir/classes/BitHolder.cpp.o.d -o CMakeFiles/demo.dir/classes/BitHolder.cpp.o -c /home/electrickazoo/Assignments/chess-base-emette/classes/BitHolder.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/electrickazoo/Assignments/chess-ai-engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/demo.dir/classes/BitHolder.cpp.o"
+	/nix/store/vr15iyyykg9zai6fpgvhcgyw7gckl78w-gcc-wrapper-14.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/demo.dir/classes/BitHolder.cpp.o -MF CMakeFiles/demo.dir/classes/BitHolder.cpp.o.d -o CMakeFiles/demo.dir/classes/BitHolder.cpp.o -c /home/electrickazoo/Assignments/chess-ai-engine/classes/BitHolder.cpp
 
 CMakeFiles/demo.dir/classes/BitHolder.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/demo.dir/classes/BitHolder.cpp.i"
-	/run/current-system/sw/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/electrickazoo/Assignments/chess-base-emette/classes/BitHolder.cpp > CMakeFiles/demo.dir/classes/BitHolder.cpp.i
+	/nix/store/vr15iyyykg9zai6fpgvhcgyw7gckl78w-gcc-wrapper-14.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/electrickazoo/Assignments/chess-ai-engine/classes/BitHolder.cpp > CMakeFiles/demo.dir/classes/BitHolder.cpp.i
 
 CMakeFiles/demo.dir/classes/BitHolder.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/demo.dir/classes/BitHolder.cpp.s"
-	/run/current-system/sw/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/electrickazoo/Assignments/chess-base-emette/classes/BitHolder.cpp -o CMakeFiles/demo.dir/classes/BitHolder.cpp.s
+	/nix/store/vr15iyyykg9zai6fpgvhcgyw7gckl78w-gcc-wrapper-14.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/electrickazoo/Assignments/chess-ai-engine/classes/BitHolder.cpp -o CMakeFiles/demo.dir/classes/BitHolder.cpp.s
 
 CMakeFiles/demo.dir/classes/Game.cpp.o: CMakeFiles/demo.dir/flags.make
-CMakeFiles/demo.dir/classes/Game.cpp.o: /home/electrickazoo/Assignments/chess-base-emette/classes/Game.cpp
+CMakeFiles/demo.dir/classes/Game.cpp.o: /home/electrickazoo/Assignments/chess-ai-engine/classes/Game.cpp
 CMakeFiles/demo.dir/classes/Game.cpp.o: CMakeFiles/demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/electrickazoo/Assignments/chess-base-emette/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/demo.dir/classes/Game.cpp.o"
-	/run/current-system/sw/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/demo.dir/classes/Game.cpp.o -MF CMakeFiles/demo.dir/classes/Game.cpp.o.d -o CMakeFiles/demo.dir/classes/Game.cpp.o -c /home/electrickazoo/Assignments/chess-base-emette/classes/Game.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/electrickazoo/Assignments/chess-ai-engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/demo.dir/classes/Game.cpp.o"
+	/nix/store/vr15iyyykg9zai6fpgvhcgyw7gckl78w-gcc-wrapper-14.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/demo.dir/classes/Game.cpp.o -MF CMakeFiles/demo.dir/classes/Game.cpp.o.d -o CMakeFiles/demo.dir/classes/Game.cpp.o -c /home/electrickazoo/Assignments/chess-ai-engine/classes/Game.cpp
 
 CMakeFiles/demo.dir/classes/Game.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/demo.dir/classes/Game.cpp.i"
-	/run/current-system/sw/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/electrickazoo/Assignments/chess-base-emette/classes/Game.cpp > CMakeFiles/demo.dir/classes/Game.cpp.i
+	/nix/store/vr15iyyykg9zai6fpgvhcgyw7gckl78w-gcc-wrapper-14.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/electrickazoo/Assignments/chess-ai-engine/classes/Game.cpp > CMakeFiles/demo.dir/classes/Game.cpp.i
 
 CMakeFiles/demo.dir/classes/Game.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/demo.dir/classes/Game.cpp.s"
-	/run/current-system/sw/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/electrickazoo/Assignments/chess-base-emette/classes/Game.cpp -o CMakeFiles/demo.dir/classes/Game.cpp.s
+	/nix/store/vr15iyyykg9zai6fpgvhcgyw7gckl78w-gcc-wrapper-14.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/electrickazoo/Assignments/chess-ai-engine/classes/Game.cpp -o CMakeFiles/demo.dir/classes/Game.cpp.s
 
 CMakeFiles/demo.dir/classes/Sprite.cpp.o: CMakeFiles/demo.dir/flags.make
-CMakeFiles/demo.dir/classes/Sprite.cpp.o: /home/electrickazoo/Assignments/chess-base-emette/classes/Sprite.cpp
+CMakeFiles/demo.dir/classes/Sprite.cpp.o: /home/electrickazoo/Assignments/chess-ai-engine/classes/Sprite.cpp
 CMakeFiles/demo.dir/classes/Sprite.cpp.o: CMakeFiles/demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/electrickazoo/Assignments/chess-base-emette/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/demo.dir/classes/Sprite.cpp.o"
-	/run/current-system/sw/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/demo.dir/classes/Sprite.cpp.o -MF CMakeFiles/demo.dir/classes/Sprite.cpp.o.d -o CMakeFiles/demo.dir/classes/Sprite.cpp.o -c /home/electrickazoo/Assignments/chess-base-emette/classes/Sprite.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/electrickazoo/Assignments/chess-ai-engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/demo.dir/classes/Sprite.cpp.o"
+	/nix/store/vr15iyyykg9zai6fpgvhcgyw7gckl78w-gcc-wrapper-14.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/demo.dir/classes/Sprite.cpp.o -MF CMakeFiles/demo.dir/classes/Sprite.cpp.o.d -o CMakeFiles/demo.dir/classes/Sprite.cpp.o -c /home/electrickazoo/Assignments/chess-ai-engine/classes/Sprite.cpp
 
 CMakeFiles/demo.dir/classes/Sprite.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/demo.dir/classes/Sprite.cpp.i"
-	/run/current-system/sw/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/electrickazoo/Assignments/chess-base-emette/classes/Sprite.cpp > CMakeFiles/demo.dir/classes/Sprite.cpp.i
+	/nix/store/vr15iyyykg9zai6fpgvhcgyw7gckl78w-gcc-wrapper-14.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/electrickazoo/Assignments/chess-ai-engine/classes/Sprite.cpp > CMakeFiles/demo.dir/classes/Sprite.cpp.i
 
 CMakeFiles/demo.dir/classes/Sprite.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/demo.dir/classes/Sprite.cpp.s"
-	/run/current-system/sw/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/electrickazoo/Assignments/chess-base-emette/classes/Sprite.cpp -o CMakeFiles/demo.dir/classes/Sprite.cpp.s
+	/nix/store/vr15iyyykg9zai6fpgvhcgyw7gckl78w-gcc-wrapper-14.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/electrickazoo/Assignments/chess-ai-engine/classes/Sprite.cpp -o CMakeFiles/demo.dir/classes/Sprite.cpp.s
 
 CMakeFiles/demo.dir/classes/Square.cpp.o: CMakeFiles/demo.dir/flags.make
-CMakeFiles/demo.dir/classes/Square.cpp.o: /home/electrickazoo/Assignments/chess-base-emette/classes/Square.cpp
+CMakeFiles/demo.dir/classes/Square.cpp.o: /home/electrickazoo/Assignments/chess-ai-engine/classes/Square.cpp
 CMakeFiles/demo.dir/classes/Square.cpp.o: CMakeFiles/demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/electrickazoo/Assignments/chess-base-emette/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/demo.dir/classes/Square.cpp.o"
-	/run/current-system/sw/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/demo.dir/classes/Square.cpp.o -MF CMakeFiles/demo.dir/classes/Square.cpp.o.d -o CMakeFiles/demo.dir/classes/Square.cpp.o -c /home/electrickazoo/Assignments/chess-base-emette/classes/Square.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/electrickazoo/Assignments/chess-ai-engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/demo.dir/classes/Square.cpp.o"
+	/nix/store/vr15iyyykg9zai6fpgvhcgyw7gckl78w-gcc-wrapper-14.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/demo.dir/classes/Square.cpp.o -MF CMakeFiles/demo.dir/classes/Square.cpp.o.d -o CMakeFiles/demo.dir/classes/Square.cpp.o -c /home/electrickazoo/Assignments/chess-ai-engine/classes/Square.cpp
 
 CMakeFiles/demo.dir/classes/Square.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/demo.dir/classes/Square.cpp.i"
-	/run/current-system/sw/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/electrickazoo/Assignments/chess-base-emette/classes/Square.cpp > CMakeFiles/demo.dir/classes/Square.cpp.i
+	/nix/store/vr15iyyykg9zai6fpgvhcgyw7gckl78w-gcc-wrapper-14.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/electrickazoo/Assignments/chess-ai-engine/classes/Square.cpp > CMakeFiles/demo.dir/classes/Square.cpp.i
 
 CMakeFiles/demo.dir/classes/Square.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/demo.dir/classes/Square.cpp.s"
-	/run/current-system/sw/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/electrickazoo/Assignments/chess-base-emette/classes/Square.cpp -o CMakeFiles/demo.dir/classes/Square.cpp.s
+	/nix/store/vr15iyyykg9zai6fpgvhcgyw7gckl78w-gcc-wrapper-14.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/electrickazoo/Assignments/chess-ai-engine/classes/Square.cpp -o CMakeFiles/demo.dir/classes/Square.cpp.s
 
 CMakeFiles/demo.dir/classes/ChessSquare.cpp.o: CMakeFiles/demo.dir/flags.make
-CMakeFiles/demo.dir/classes/ChessSquare.cpp.o: /home/electrickazoo/Assignments/chess-base-emette/classes/ChessSquare.cpp
+CMakeFiles/demo.dir/classes/ChessSquare.cpp.o: /home/electrickazoo/Assignments/chess-ai-engine/classes/ChessSquare.cpp
 CMakeFiles/demo.dir/classes/ChessSquare.cpp.o: CMakeFiles/demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/electrickazoo/Assignments/chess-base-emette/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/demo.dir/classes/ChessSquare.cpp.o"
-	/run/current-system/sw/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/demo.dir/classes/ChessSquare.cpp.o -MF CMakeFiles/demo.dir/classes/ChessSquare.cpp.o.d -o CMakeFiles/demo.dir/classes/ChessSquare.cpp.o -c /home/electrickazoo/Assignments/chess-base-emette/classes/ChessSquare.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/electrickazoo/Assignments/chess-ai-engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/demo.dir/classes/ChessSquare.cpp.o"
+	/nix/store/vr15iyyykg9zai6fpgvhcgyw7gckl78w-gcc-wrapper-14.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/demo.dir/classes/ChessSquare.cpp.o -MF CMakeFiles/demo.dir/classes/ChessSquare.cpp.o.d -o CMakeFiles/demo.dir/classes/ChessSquare.cpp.o -c /home/electrickazoo/Assignments/chess-ai-engine/classes/ChessSquare.cpp
 
 CMakeFiles/demo.dir/classes/ChessSquare.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/demo.dir/classes/ChessSquare.cpp.i"
-	/run/current-system/sw/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/electrickazoo/Assignments/chess-base-emette/classes/ChessSquare.cpp > CMakeFiles/demo.dir/classes/ChessSquare.cpp.i
+	/nix/store/vr15iyyykg9zai6fpgvhcgyw7gckl78w-gcc-wrapper-14.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/electrickazoo/Assignments/chess-ai-engine/classes/ChessSquare.cpp > CMakeFiles/demo.dir/classes/ChessSquare.cpp.i
 
 CMakeFiles/demo.dir/classes/ChessSquare.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/demo.dir/classes/ChessSquare.cpp.s"
-	/run/current-system/sw/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/electrickazoo/Assignments/chess-base-emette/classes/ChessSquare.cpp -o CMakeFiles/demo.dir/classes/ChessSquare.cpp.s
+	/nix/store/vr15iyyykg9zai6fpgvhcgyw7gckl78w-gcc-wrapper-14.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/electrickazoo/Assignments/chess-ai-engine/classes/ChessSquare.cpp -o CMakeFiles/demo.dir/classes/ChessSquare.cpp.s
 
 CMakeFiles/demo.dir/classes/Grid.cpp.o: CMakeFiles/demo.dir/flags.make
-CMakeFiles/demo.dir/classes/Grid.cpp.o: /home/electrickazoo/Assignments/chess-base-emette/classes/Grid.cpp
+CMakeFiles/demo.dir/classes/Grid.cpp.o: /home/electrickazoo/Assignments/chess-ai-engine/classes/Grid.cpp
 CMakeFiles/demo.dir/classes/Grid.cpp.o: CMakeFiles/demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/electrickazoo/Assignments/chess-base-emette/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/demo.dir/classes/Grid.cpp.o"
-	/run/current-system/sw/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/demo.dir/classes/Grid.cpp.o -MF CMakeFiles/demo.dir/classes/Grid.cpp.o.d -o CMakeFiles/demo.dir/classes/Grid.cpp.o -c /home/electrickazoo/Assignments/chess-base-emette/classes/Grid.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/electrickazoo/Assignments/chess-ai-engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/demo.dir/classes/Grid.cpp.o"
+	/nix/store/vr15iyyykg9zai6fpgvhcgyw7gckl78w-gcc-wrapper-14.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/demo.dir/classes/Grid.cpp.o -MF CMakeFiles/demo.dir/classes/Grid.cpp.o.d -o CMakeFiles/demo.dir/classes/Grid.cpp.o -c /home/electrickazoo/Assignments/chess-ai-engine/classes/Grid.cpp
 
 CMakeFiles/demo.dir/classes/Grid.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/demo.dir/classes/Grid.cpp.i"
-	/run/current-system/sw/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/electrickazoo/Assignments/chess-base-emette/classes/Grid.cpp > CMakeFiles/demo.dir/classes/Grid.cpp.i
+	/nix/store/vr15iyyykg9zai6fpgvhcgyw7gckl78w-gcc-wrapper-14.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/electrickazoo/Assignments/chess-ai-engine/classes/Grid.cpp > CMakeFiles/demo.dir/classes/Grid.cpp.i
 
 CMakeFiles/demo.dir/classes/Grid.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/demo.dir/classes/Grid.cpp.s"
-	/run/current-system/sw/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/electrickazoo/Assignments/chess-base-emette/classes/Grid.cpp -o CMakeFiles/demo.dir/classes/Grid.cpp.s
+	/nix/store/vr15iyyykg9zai6fpgvhcgyw7gckl78w-gcc-wrapper-14.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/electrickazoo/Assignments/chess-ai-engine/classes/Grid.cpp -o CMakeFiles/demo.dir/classes/Grid.cpp.s
 
 CMakeFiles/demo.dir/classes/TicTacToe.cpp.o: CMakeFiles/demo.dir/flags.make
-CMakeFiles/demo.dir/classes/TicTacToe.cpp.o: /home/electrickazoo/Assignments/chess-base-emette/classes/TicTacToe.cpp
+CMakeFiles/demo.dir/classes/TicTacToe.cpp.o: /home/electrickazoo/Assignments/chess-ai-engine/classes/TicTacToe.cpp
 CMakeFiles/demo.dir/classes/TicTacToe.cpp.o: CMakeFiles/demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/electrickazoo/Assignments/chess-base-emette/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/demo.dir/classes/TicTacToe.cpp.o"
-	/run/current-system/sw/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/demo.dir/classes/TicTacToe.cpp.o -MF CMakeFiles/demo.dir/classes/TicTacToe.cpp.o.d -o CMakeFiles/demo.dir/classes/TicTacToe.cpp.o -c /home/electrickazoo/Assignments/chess-base-emette/classes/TicTacToe.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/electrickazoo/Assignments/chess-ai-engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/demo.dir/classes/TicTacToe.cpp.o"
+	/nix/store/vr15iyyykg9zai6fpgvhcgyw7gckl78w-gcc-wrapper-14.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/demo.dir/classes/TicTacToe.cpp.o -MF CMakeFiles/demo.dir/classes/TicTacToe.cpp.o.d -o CMakeFiles/demo.dir/classes/TicTacToe.cpp.o -c /home/electrickazoo/Assignments/chess-ai-engine/classes/TicTacToe.cpp
 
 CMakeFiles/demo.dir/classes/TicTacToe.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/demo.dir/classes/TicTacToe.cpp.i"
-	/run/current-system/sw/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/electrickazoo/Assignments/chess-base-emette/classes/TicTacToe.cpp > CMakeFiles/demo.dir/classes/TicTacToe.cpp.i
+	/nix/store/vr15iyyykg9zai6fpgvhcgyw7gckl78w-gcc-wrapper-14.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/electrickazoo/Assignments/chess-ai-engine/classes/TicTacToe.cpp > CMakeFiles/demo.dir/classes/TicTacToe.cpp.i
 
 CMakeFiles/demo.dir/classes/TicTacToe.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/demo.dir/classes/TicTacToe.cpp.s"
-	/run/current-system/sw/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/electrickazoo/Assignments/chess-base-emette/classes/TicTacToe.cpp -o CMakeFiles/demo.dir/classes/TicTacToe.cpp.s
+	/nix/store/vr15iyyykg9zai6fpgvhcgyw7gckl78w-gcc-wrapper-14.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/electrickazoo/Assignments/chess-ai-engine/classes/TicTacToe.cpp -o CMakeFiles/demo.dir/classes/TicTacToe.cpp.s
 
 CMakeFiles/demo.dir/classes/Checkers.cpp.o: CMakeFiles/demo.dir/flags.make
-CMakeFiles/demo.dir/classes/Checkers.cpp.o: /home/electrickazoo/Assignments/chess-base-emette/classes/Checkers.cpp
+CMakeFiles/demo.dir/classes/Checkers.cpp.o: /home/electrickazoo/Assignments/chess-ai-engine/classes/Checkers.cpp
 CMakeFiles/demo.dir/classes/Checkers.cpp.o: CMakeFiles/demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/electrickazoo/Assignments/chess-base-emette/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/demo.dir/classes/Checkers.cpp.o"
-	/run/current-system/sw/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/demo.dir/classes/Checkers.cpp.o -MF CMakeFiles/demo.dir/classes/Checkers.cpp.o.d -o CMakeFiles/demo.dir/classes/Checkers.cpp.o -c /home/electrickazoo/Assignments/chess-base-emette/classes/Checkers.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/electrickazoo/Assignments/chess-ai-engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/demo.dir/classes/Checkers.cpp.o"
+	/nix/store/vr15iyyykg9zai6fpgvhcgyw7gckl78w-gcc-wrapper-14.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/demo.dir/classes/Checkers.cpp.o -MF CMakeFiles/demo.dir/classes/Checkers.cpp.o.d -o CMakeFiles/demo.dir/classes/Checkers.cpp.o -c /home/electrickazoo/Assignments/chess-ai-engine/classes/Checkers.cpp
 
 CMakeFiles/demo.dir/classes/Checkers.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/demo.dir/classes/Checkers.cpp.i"
-	/run/current-system/sw/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/electrickazoo/Assignments/chess-base-emette/classes/Checkers.cpp > CMakeFiles/demo.dir/classes/Checkers.cpp.i
+	/nix/store/vr15iyyykg9zai6fpgvhcgyw7gckl78w-gcc-wrapper-14.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/electrickazoo/Assignments/chess-ai-engine/classes/Checkers.cpp > CMakeFiles/demo.dir/classes/Checkers.cpp.i
 
 CMakeFiles/demo.dir/classes/Checkers.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/demo.dir/classes/Checkers.cpp.s"
-	/run/current-system/sw/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/electrickazoo/Assignments/chess-base-emette/classes/Checkers.cpp -o CMakeFiles/demo.dir/classes/Checkers.cpp.s
+	/nix/store/vr15iyyykg9zai6fpgvhcgyw7gckl78w-gcc-wrapper-14.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/electrickazoo/Assignments/chess-ai-engine/classes/Checkers.cpp -o CMakeFiles/demo.dir/classes/Checkers.cpp.s
 
 CMakeFiles/demo.dir/classes/Othello.cpp.o: CMakeFiles/demo.dir/flags.make
-CMakeFiles/demo.dir/classes/Othello.cpp.o: /home/electrickazoo/Assignments/chess-base-emette/classes/Othello.cpp
+CMakeFiles/demo.dir/classes/Othello.cpp.o: /home/electrickazoo/Assignments/chess-ai-engine/classes/Othello.cpp
 CMakeFiles/demo.dir/classes/Othello.cpp.o: CMakeFiles/demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/electrickazoo/Assignments/chess-base-emette/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/demo.dir/classes/Othello.cpp.o"
-	/run/current-system/sw/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/demo.dir/classes/Othello.cpp.o -MF CMakeFiles/demo.dir/classes/Othello.cpp.o.d -o CMakeFiles/demo.dir/classes/Othello.cpp.o -c /home/electrickazoo/Assignments/chess-base-emette/classes/Othello.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/electrickazoo/Assignments/chess-ai-engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/demo.dir/classes/Othello.cpp.o"
+	/nix/store/vr15iyyykg9zai6fpgvhcgyw7gckl78w-gcc-wrapper-14.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/demo.dir/classes/Othello.cpp.o -MF CMakeFiles/demo.dir/classes/Othello.cpp.o.d -o CMakeFiles/demo.dir/classes/Othello.cpp.o -c /home/electrickazoo/Assignments/chess-ai-engine/classes/Othello.cpp
 
 CMakeFiles/demo.dir/classes/Othello.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/demo.dir/classes/Othello.cpp.i"
-	/run/current-system/sw/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/electrickazoo/Assignments/chess-base-emette/classes/Othello.cpp > CMakeFiles/demo.dir/classes/Othello.cpp.i
+	/nix/store/vr15iyyykg9zai6fpgvhcgyw7gckl78w-gcc-wrapper-14.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/electrickazoo/Assignments/chess-ai-engine/classes/Othello.cpp > CMakeFiles/demo.dir/classes/Othello.cpp.i
 
 CMakeFiles/demo.dir/classes/Othello.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/demo.dir/classes/Othello.cpp.s"
-	/run/current-system/sw/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/electrickazoo/Assignments/chess-base-emette/classes/Othello.cpp -o CMakeFiles/demo.dir/classes/Othello.cpp.s
+	/nix/store/vr15iyyykg9zai6fpgvhcgyw7gckl78w-gcc-wrapper-14.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/electrickazoo/Assignments/chess-ai-engine/classes/Othello.cpp -o CMakeFiles/demo.dir/classes/Othello.cpp.s
 
 CMakeFiles/demo.dir/classes/Connect4.cpp.o: CMakeFiles/demo.dir/flags.make
-CMakeFiles/demo.dir/classes/Connect4.cpp.o: /home/electrickazoo/Assignments/chess-base-emette/classes/Connect4.cpp
+CMakeFiles/demo.dir/classes/Connect4.cpp.o: /home/electrickazoo/Assignments/chess-ai-engine/classes/Connect4.cpp
 CMakeFiles/demo.dir/classes/Connect4.cpp.o: CMakeFiles/demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/electrickazoo/Assignments/chess-base-emette/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/demo.dir/classes/Connect4.cpp.o"
-	/run/current-system/sw/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/demo.dir/classes/Connect4.cpp.o -MF CMakeFiles/demo.dir/classes/Connect4.cpp.o.d -o CMakeFiles/demo.dir/classes/Connect4.cpp.o -c /home/electrickazoo/Assignments/chess-base-emette/classes/Connect4.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/electrickazoo/Assignments/chess-ai-engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/demo.dir/classes/Connect4.cpp.o"
+	/nix/store/vr15iyyykg9zai6fpgvhcgyw7gckl78w-gcc-wrapper-14.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/demo.dir/classes/Connect4.cpp.o -MF CMakeFiles/demo.dir/classes/Connect4.cpp.o.d -o CMakeFiles/demo.dir/classes/Connect4.cpp.o -c /home/electrickazoo/Assignments/chess-ai-engine/classes/Connect4.cpp
 
 CMakeFiles/demo.dir/classes/Connect4.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/demo.dir/classes/Connect4.cpp.i"
-	/run/current-system/sw/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/electrickazoo/Assignments/chess-base-emette/classes/Connect4.cpp > CMakeFiles/demo.dir/classes/Connect4.cpp.i
+	/nix/store/vr15iyyykg9zai6fpgvhcgyw7gckl78w-gcc-wrapper-14.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/electrickazoo/Assignments/chess-ai-engine/classes/Connect4.cpp > CMakeFiles/demo.dir/classes/Connect4.cpp.i
 
 CMakeFiles/demo.dir/classes/Connect4.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/demo.dir/classes/Connect4.cpp.s"
-	/run/current-system/sw/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/electrickazoo/Assignments/chess-base-emette/classes/Connect4.cpp -o CMakeFiles/demo.dir/classes/Connect4.cpp.s
+	/nix/store/vr15iyyykg9zai6fpgvhcgyw7gckl78w-gcc-wrapper-14.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/electrickazoo/Assignments/chess-ai-engine/classes/Connect4.cpp -o CMakeFiles/demo.dir/classes/Connect4.cpp.s
 
 CMakeFiles/demo.dir/classes/Chess.cpp.o: CMakeFiles/demo.dir/flags.make
-CMakeFiles/demo.dir/classes/Chess.cpp.o: /home/electrickazoo/Assignments/chess-base-emette/classes/Chess.cpp
+CMakeFiles/demo.dir/classes/Chess.cpp.o: /home/electrickazoo/Assignments/chess-ai-engine/classes/Chess.cpp
 CMakeFiles/demo.dir/classes/Chess.cpp.o: CMakeFiles/demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/electrickazoo/Assignments/chess-base-emette/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/demo.dir/classes/Chess.cpp.o"
-	/run/current-system/sw/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/demo.dir/classes/Chess.cpp.o -MF CMakeFiles/demo.dir/classes/Chess.cpp.o.d -o CMakeFiles/demo.dir/classes/Chess.cpp.o -c /home/electrickazoo/Assignments/chess-base-emette/classes/Chess.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/electrickazoo/Assignments/chess-ai-engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/demo.dir/classes/Chess.cpp.o"
+	/nix/store/vr15iyyykg9zai6fpgvhcgyw7gckl78w-gcc-wrapper-14.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/demo.dir/classes/Chess.cpp.o -MF CMakeFiles/demo.dir/classes/Chess.cpp.o.d -o CMakeFiles/demo.dir/classes/Chess.cpp.o -c /home/electrickazoo/Assignments/chess-ai-engine/classes/Chess.cpp
 
 CMakeFiles/demo.dir/classes/Chess.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/demo.dir/classes/Chess.cpp.i"
-	/run/current-system/sw/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/electrickazoo/Assignments/chess-base-emette/classes/Chess.cpp > CMakeFiles/demo.dir/classes/Chess.cpp.i
+	/nix/store/vr15iyyykg9zai6fpgvhcgyw7gckl78w-gcc-wrapper-14.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/electrickazoo/Assignments/chess-ai-engine/classes/Chess.cpp > CMakeFiles/demo.dir/classes/Chess.cpp.i
 
 CMakeFiles/demo.dir/classes/Chess.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/demo.dir/classes/Chess.cpp.s"
-	/run/current-system/sw/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/electrickazoo/Assignments/chess-base-emette/classes/Chess.cpp -o CMakeFiles/demo.dir/classes/Chess.cpp.s
+	/nix/store/vr15iyyykg9zai6fpgvhcgyw7gckl78w-gcc-wrapper-14.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/electrickazoo/Assignments/chess-ai-engine/classes/Chess.cpp -o CMakeFiles/demo.dir/classes/Chess.cpp.s
 
 CMakeFiles/demo.dir/imgui/imgui_impl_opengl3.cpp.o: CMakeFiles/demo.dir/flags.make
-CMakeFiles/demo.dir/imgui/imgui_impl_opengl3.cpp.o: /home/electrickazoo/Assignments/chess-base-emette/imgui/imgui_impl_opengl3.cpp
+CMakeFiles/demo.dir/imgui/imgui_impl_opengl3.cpp.o: /home/electrickazoo/Assignments/chess-ai-engine/imgui/imgui_impl_opengl3.cpp
 CMakeFiles/demo.dir/imgui/imgui_impl_opengl3.cpp.o: CMakeFiles/demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/electrickazoo/Assignments/chess-base-emette/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/demo.dir/imgui/imgui_impl_opengl3.cpp.o"
-	/run/current-system/sw/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/demo.dir/imgui/imgui_impl_opengl3.cpp.o -MF CMakeFiles/demo.dir/imgui/imgui_impl_opengl3.cpp.o.d -o CMakeFiles/demo.dir/imgui/imgui_impl_opengl3.cpp.o -c /home/electrickazoo/Assignments/chess-base-emette/imgui/imgui_impl_opengl3.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/electrickazoo/Assignments/chess-ai-engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/demo.dir/imgui/imgui_impl_opengl3.cpp.o"
+	/nix/store/vr15iyyykg9zai6fpgvhcgyw7gckl78w-gcc-wrapper-14.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/demo.dir/imgui/imgui_impl_opengl3.cpp.o -MF CMakeFiles/demo.dir/imgui/imgui_impl_opengl3.cpp.o.d -o CMakeFiles/demo.dir/imgui/imgui_impl_opengl3.cpp.o -c /home/electrickazoo/Assignments/chess-ai-engine/imgui/imgui_impl_opengl3.cpp
 
 CMakeFiles/demo.dir/imgui/imgui_impl_opengl3.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/demo.dir/imgui/imgui_impl_opengl3.cpp.i"
-	/run/current-system/sw/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/electrickazoo/Assignments/chess-base-emette/imgui/imgui_impl_opengl3.cpp > CMakeFiles/demo.dir/imgui/imgui_impl_opengl3.cpp.i
+	/nix/store/vr15iyyykg9zai6fpgvhcgyw7gckl78w-gcc-wrapper-14.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/electrickazoo/Assignments/chess-ai-engine/imgui/imgui_impl_opengl3.cpp > CMakeFiles/demo.dir/imgui/imgui_impl_opengl3.cpp.i
 
 CMakeFiles/demo.dir/imgui/imgui_impl_opengl3.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/demo.dir/imgui/imgui_impl_opengl3.cpp.s"
-	/run/current-system/sw/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/electrickazoo/Assignments/chess-base-emette/imgui/imgui_impl_opengl3.cpp -o CMakeFiles/demo.dir/imgui/imgui_impl_opengl3.cpp.s
+	/nix/store/vr15iyyykg9zai6fpgvhcgyw7gckl78w-gcc-wrapper-14.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/electrickazoo/Assignments/chess-ai-engine/imgui/imgui_impl_opengl3.cpp -o CMakeFiles/demo.dir/imgui/imgui_impl_opengl3.cpp.s
 
 CMakeFiles/demo.dir/main_macos.cpp.o: CMakeFiles/demo.dir/flags.make
-CMakeFiles/demo.dir/main_macos.cpp.o: /home/electrickazoo/Assignments/chess-base-emette/main_macos.cpp
+CMakeFiles/demo.dir/main_macos.cpp.o: /home/electrickazoo/Assignments/chess-ai-engine/main_macos.cpp
 CMakeFiles/demo.dir/main_macos.cpp.o: CMakeFiles/demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/electrickazoo/Assignments/chess-base-emette/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/demo.dir/main_macos.cpp.o"
-	/run/current-system/sw/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/demo.dir/main_macos.cpp.o -MF CMakeFiles/demo.dir/main_macos.cpp.o.d -o CMakeFiles/demo.dir/main_macos.cpp.o -c /home/electrickazoo/Assignments/chess-base-emette/main_macos.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/electrickazoo/Assignments/chess-ai-engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/demo.dir/main_macos.cpp.o"
+	/nix/store/vr15iyyykg9zai6fpgvhcgyw7gckl78w-gcc-wrapper-14.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/demo.dir/main_macos.cpp.o -MF CMakeFiles/demo.dir/main_macos.cpp.o.d -o CMakeFiles/demo.dir/main_macos.cpp.o -c /home/electrickazoo/Assignments/chess-ai-engine/main_macos.cpp
 
 CMakeFiles/demo.dir/main_macos.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/demo.dir/main_macos.cpp.i"
-	/run/current-system/sw/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/electrickazoo/Assignments/chess-base-emette/main_macos.cpp > CMakeFiles/demo.dir/main_macos.cpp.i
+	/nix/store/vr15iyyykg9zai6fpgvhcgyw7gckl78w-gcc-wrapper-14.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/electrickazoo/Assignments/chess-ai-engine/main_macos.cpp > CMakeFiles/demo.dir/main_macos.cpp.i
 
 CMakeFiles/demo.dir/main_macos.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/demo.dir/main_macos.cpp.s"
-	/run/current-system/sw/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/electrickazoo/Assignments/chess-base-emette/main_macos.cpp -o CMakeFiles/demo.dir/main_macos.cpp.s
+	/nix/store/vr15iyyykg9zai6fpgvhcgyw7gckl78w-gcc-wrapper-14.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/electrickazoo/Assignments/chess-ai-engine/main_macos.cpp -o CMakeFiles/demo.dir/main_macos.cpp.s
 
 CMakeFiles/demo.dir/imgui/imgui_impl_glfw.cpp.o: CMakeFiles/demo.dir/flags.make
-CMakeFiles/demo.dir/imgui/imgui_impl_glfw.cpp.o: /home/electrickazoo/Assignments/chess-base-emette/imgui/imgui_impl_glfw.cpp
+CMakeFiles/demo.dir/imgui/imgui_impl_glfw.cpp.o: /home/electrickazoo/Assignments/chess-ai-engine/imgui/imgui_impl_glfw.cpp
 CMakeFiles/demo.dir/imgui/imgui_impl_glfw.cpp.o: CMakeFiles/demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/electrickazoo/Assignments/chess-base-emette/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/demo.dir/imgui/imgui_impl_glfw.cpp.o"
-	/run/current-system/sw/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/demo.dir/imgui/imgui_impl_glfw.cpp.o -MF CMakeFiles/demo.dir/imgui/imgui_impl_glfw.cpp.o.d -o CMakeFiles/demo.dir/imgui/imgui_impl_glfw.cpp.o -c /home/electrickazoo/Assignments/chess-base-emette/imgui/imgui_impl_glfw.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/electrickazoo/Assignments/chess-ai-engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/demo.dir/imgui/imgui_impl_glfw.cpp.o"
+	/nix/store/vr15iyyykg9zai6fpgvhcgyw7gckl78w-gcc-wrapper-14.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/demo.dir/imgui/imgui_impl_glfw.cpp.o -MF CMakeFiles/demo.dir/imgui/imgui_impl_glfw.cpp.o.d -o CMakeFiles/demo.dir/imgui/imgui_impl_glfw.cpp.o -c /home/electrickazoo/Assignments/chess-ai-engine/imgui/imgui_impl_glfw.cpp
 
 CMakeFiles/demo.dir/imgui/imgui_impl_glfw.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/demo.dir/imgui/imgui_impl_glfw.cpp.i"
-	/run/current-system/sw/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/electrickazoo/Assignments/chess-base-emette/imgui/imgui_impl_glfw.cpp > CMakeFiles/demo.dir/imgui/imgui_impl_glfw.cpp.i
+	/nix/store/vr15iyyykg9zai6fpgvhcgyw7gckl78w-gcc-wrapper-14.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/electrickazoo/Assignments/chess-ai-engine/imgui/imgui_impl_glfw.cpp > CMakeFiles/demo.dir/imgui/imgui_impl_glfw.cpp.i
 
 CMakeFiles/demo.dir/imgui/imgui_impl_glfw.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/demo.dir/imgui/imgui_impl_glfw.cpp.s"
-	/run/current-system/sw/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/electrickazoo/Assignments/chess-base-emette/imgui/imgui_impl_glfw.cpp -o CMakeFiles/demo.dir/imgui/imgui_impl_glfw.cpp.s
+	/nix/store/vr15iyyykg9zai6fpgvhcgyw7gckl78w-gcc-wrapper-14.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/electrickazoo/Assignments/chess-ai-engine/imgui/imgui_impl_glfw.cpp -o CMakeFiles/demo.dir/imgui/imgui_impl_glfw.cpp.s
 
 # Object files for target demo
 demo_OBJECTS = \
@@ -419,10 +419,10 @@ demo: CMakeFiles/demo.dir/compiler_depend.ts
 demo: /nix/store/mm4v6w3wj8wi5qc6rwdrb2rkqs08whp9-libglvnd-1.7.0/lib/libGL.so
 demo: /nix/store/3w6v0n3hr9gczwmxkpb89q5jywrkkkas-glfw-3.4/lib/libglfw.so.3.4
 demo: CMakeFiles/demo.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/electrickazoo/Assignments/chess-base-emette/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Linking CXX executable demo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/electrickazoo/Assignments/chess-ai-engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Linking CXX executable demo"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/demo.dir/link.txt --verbose=$(VERBOSE)
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold "Copying resources to runtime output dir"
-	/nix/store/sywrvcqgm7bf6njpfbkhd8iy4iaymhj2-cmake-3.31.6/bin/cmake -E copy_directory /home/electrickazoo/Assignments/chess-base-emette/resources /home/electrickazoo/Assignments/chess-base-emette/build/resources
+	/nix/store/sywrvcqgm7bf6njpfbkhd8iy4iaymhj2-cmake-3.31.6/bin/cmake -E copy_directory /home/electrickazoo/Assignments/chess-ai-engine/resources /home/electrickazoo/Assignments/chess-ai-engine/build/resources
 
 # Rule to build all files generated by this target.
 CMakeFiles/demo.dir/build: demo
@@ -433,6 +433,6 @@ CMakeFiles/demo.dir/clean:
 .PHONY : CMakeFiles/demo.dir/clean
 
 CMakeFiles/demo.dir/depend:
-	cd /home/electrickazoo/Assignments/chess-base-emette/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/electrickazoo/Assignments/chess-base-emette /home/electrickazoo/Assignments/chess-base-emette /home/electrickazoo/Assignments/chess-base-emette/build /home/electrickazoo/Assignments/chess-base-emette/build /home/electrickazoo/Assignments/chess-base-emette/build/CMakeFiles/demo.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/electrickazoo/Assignments/chess-ai-engine/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/electrickazoo/Assignments/chess-ai-engine /home/electrickazoo/Assignments/chess-ai-engine /home/electrickazoo/Assignments/chess-ai-engine/build /home/electrickazoo/Assignments/chess-ai-engine/build /home/electrickazoo/Assignments/chess-ai-engine/build/CMakeFiles/demo.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/demo.dir/depend
 

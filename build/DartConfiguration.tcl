@@ -4,8 +4,8 @@
 
 
 # Configuration directories and files
-SourceDirectory: /home/electrickazoo/Assignments/chess-base-emette
-BuildDirectory: /home/electrickazoo/Assignments/chess-base-emette/build
+SourceDirectory: /home/electrickazoo/Assignments/chess-ai-engine
+BuildDirectory: /home/electrickazoo/Assignments/chess-ai-engine/build
 
 # Where to place the cost data store
 CostDataFile: 
@@ -14,7 +14,7 @@ CostDataFile:
 Site: wander
 
 # Build name is osname-revision-compiler, i.e. Linux-2.4.2-2smp-c++
-BuildName: Linux-c++
+BuildName: Linux-g++
 
 # Subprojects
 LabelsForSubprojects: 
@@ -27,8 +27,8 @@ SubmitInactivityTimeout:
 NightlyStartTime: 00:00:00 EDT
 
 # Commands for the build/test/submit cycle
-ConfigureCommand: "/nix/store/sywrvcqgm7bf6njpfbkhd8iy4iaymhj2-cmake-3.31.6/bin/cmake" "/home/electrickazoo/Assignments/chess-base-emette"
-MakeCommand: /nix/store/sywrvcqgm7bf6njpfbkhd8iy4iaymhj2-cmake-3.31.6/bin/cmake --build . --config "${CTEST_CONFIGURATION_TYPE}"
+ConfigureCommand: "/nix/store/sywrvcqgm7bf6njpfbkhd8iy4iaymhj2-cmake-3.31.6/bin/cmake" "/home/electrickazoo/Assignments/chess-ai-engine"
+MakeCommand: /nix/store/w9jm660dykns6hzrdhxmqfywnc9ail8g-cmake-4.1.2/bin/cmake --build . --config "${CTEST_CONFIGURATION_TYPE}"
 DefaultCTestConfigurationType: Release
 
 # version control
@@ -63,8 +63,8 @@ UpdateOptions:
 UpdateType: git
 
 # Compiler info
-Compiler: /run/current-system/sw/bin/c++
-CompilerVersion: 15.1.0
+Compiler: /nix/store/vr15iyyykg9zai6fpgvhcgyw7gckl78w-gcc-wrapper-14.3.0/bin/g++
+CompilerVersion: 14.3.0
 
 # Dynamic analysis (MemCheck)
 PurifyCommand: 
@@ -81,7 +81,7 @@ MemoryCheckCommandOptions:
 MemoryCheckSuppressionFile: 
 
 # Coverage
-CoverageCommand: /run/current-system/sw/bin/gcov
+CoverageCommand: /nix/store/kzq78n13l8w24jn8bx4djj79k5j717f1-gcc-14.3.0/bin/gcov
 CoverageExtraFlags: -l
 
 # Testing options
